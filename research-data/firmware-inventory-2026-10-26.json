@@ -1,0 +1,4123 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-10-27T03:34:29Z",
+  "filename_date_note": "2026-10-26 is the requested project research snapshot label; retrieval clock was 2026-10-27 UTC.",
+  "scope": "Two jyjblrd firmware forks, all returned branches, eight verified ArduPilot children and ten verified moteus children discovered by description search, their complete returned branch/PR collections, selected actual commit comparisons and phase-scheduling PR audit. Not a census of full upstream networks.",
+  "discovery": {
+    "query": "\"Single Motor Drone Fork\" fork:only",
+    "search_api": "https://api.github.com/search/repositories?q=%22Single%20Motor%20Drone%20Fork%22%20fork%3Aonly&per_page=100",
+    "returned": 20,
+    "verified_children": 18,
+    "counts_match_reported_direct_fork_counters": true,
+    "limitation": "Direct /forks endpoint rejected by connector. Search can omit renamed/re-described/unindexed repos; counter agreement is supporting evidence, not proof of a whole-network census."
+  },
+  "repositories": {
+    "jyjblrd/moteus": {
+      "metadata": {
+        "full_name": "jyjblrd/moteus",
+        "default_branch": "main",
+        "fork": true,
+        "parent": "mjbots/moteus",
+        "source": "mjbots/moteus",
+        "description": "Moteus Brushless DC motor controller \u2013 Single Motor Drone Fork",
+        "forks_count": 10,
+        "html_url": "https://github.com/jyjblrd/moteus"
+      },
+      "branches": [
+        {
+          "name": "20240607-timeout-encoder",
+          "sha": "9f12a391ea03b446bc98305897c43dffad394ddd",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/9f12a391ea03b446bc98305897c43dffad394ddd"
+        },
+        {
+          "name": "20240610-ma732_trim",
+          "sha": "a726955ccbe0a15e73735adf2cb9e81d4afd53e5",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/a726955ccbe0a15e73735adf2cb9e81d4afd53e5"
+        },
+        {
+          "name": "20250729-debug",
+          "sha": "954214c9291c18d9e68ef971e7c7c9100fc0441d",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/954214c9291c18d9e68ef971e7c7c9100fc0441d"
+        },
+        {
+          "name": "WIP_clock_synchronize",
+          "sha": "bab6aac33cd02d4ab041840d9b5ff001c5f2895e",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/bab6aac33cd02d4ab041840d9b5ff001c5f2895e"
+        },
+        {
+          "name": "WIP_expose_control_position",
+          "sha": "4077cab3269d641cbfe02a028a4fa001453276d6",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/4077cab3269d641cbfe02a028a4fa001453276d6"
+        },
+        {
+          "name": "alternate_transport",
+          "sha": "f773152dbf36c32ba70a7a822790b44dc220a8e0",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/f773152dbf36c32ba70a7a822790b44dc220a8e0"
+        },
+        {
+          "name": "bissc",
+          "sha": "d52d6a977e712c50da2b55c5715c4847ac3844a2",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/d52d6a977e712c50da2b55c5715c4847ac3844a2"
+        },
+        {
+          "name": "claude/adaptive-decel-trajectory-Mv4Jp",
+          "sha": "64d7cab590ec933ab03aa3df0a19ae10362e6e8d",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/64d7cab590ec933ab03aa3df0a19ae10362e6e8d"
+        },
+        {
+          "name": "claude/add-python-type-checking-VPmSl",
+          "sha": "f87be41640718a0a7984028254353c4c56f04c4c",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/f87be41640718a0a7984028254353c4c56f04c4c"
+        },
+        {
+          "name": "claude/build-and-test-host-b9P43",
+          "sha": "3d504914f480da283d066dc0719d75e46f80c132",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/3d504914f480da283d066dc0719d75e46f80c132"
+        },
+        {
+          "name": "claude/fix-acceleration-trajectory-Mv4Jp",
+          "sha": "863db20cd7030b14b1d803378707d893033b8b3c",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/863db20cd7030b14b1d803378707d893033b8b3c"
+        },
+        {
+          "name": "claude/fix-acceleration-trajectory-y0eTA",
+          "sha": "23d82f851553598bb9676ab246e15a3a49a8cedb",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/23d82f851553598bb9676ab246e15a3a49a8cedb"
+        },
+        {
+          "name": "claude/test-code-execution-3325M",
+          "sha": "2df336db727a2ebb24890565478e74bf4d5d0d6a",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/2df336db727a2ebb24890565478e74bf4d5d0d6a"
+        },
+        {
+          "name": "claude/trajectory-optimization-Mv4Jp",
+          "sha": "d5fa0dabff035eb1d03813b9b541a61736fa2ca2",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/d5fa0dabff035eb1d03813b9b541a61736fa2ca2"
+        },
+        {
+          "name": "cmake",
+          "sha": "0b647b1dfb895ef89feeffa00374ab65fea6d325",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/0b647b1dfb895ef89feeffa00374ab65fea6d325"
+        },
+        {
+          "name": "d_axis_command",
+          "sha": "19bd186316ab0600c304cda7472d9d469628aadd",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/19bd186316ab0600c304cda7472d9d469628aadd"
+        },
+        {
+          "name": "encoder_mk2.5",
+          "sha": "d53b67b6c9d1a78138c566c229d8ef26fe3e1a10",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/d53b67b6c9d1a78138c566c229d8ef26fe3e1a10"
+        },
+        {
+          "name": "encoder_mk2.7",
+          "sha": "4c0e1c4c853b9a78ffd5c8e19547be7e95d7340c",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/4c0e1c4c853b9a78ffd5c8e19547be7e95d7340c"
+        },
+        {
+          "name": "gh-pages",
+          "sha": "d7cd93939c0e175100033b9173ba7f417dcd8fd9",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/d7cd93939c0e175100033b9173ba7f417dcd8fd9"
+        },
+        {
+          "name": "hall-lost-tracking-fix",
+          "sha": "d3a038f4208a97badd9fb0fdfe25fc1c221c783a",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/d3a038f4208a97badd9fb0fdfe25fc1c221c783a"
+        },
+        {
+          "name": "ilimit_scale",
+          "sha": "64eca9a755c18c481a3c750836f0e3fd9a99fc22",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/64eca9a755c18c481a3c750836f0e3fd9a99fc22"
+        },
+        {
+          "name": "improved_hall",
+          "sha": "12406a61633d494aed070bca6728584c2ffb0250",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/12406a61633d494aed070bca6728584c2ffb0250"
+        },
+        {
+          "name": "inverted_index",
+          "sha": "1a74724cfc0b969cd1ae241e4ec3cd311d661455",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/1a74724cfc0b969cd1ae241e4ec3cd311d661455"
+        },
+        {
+          "name": "lib_cpp",
+          "sha": "43ddd76db93775c1a4b7c323c82125e825c971cd",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/43ddd76db93775c1a4b7c323c82125e825c971cd"
+        },
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+        },
+        {
+          "name": "mcout-uart",
+          "sha": "af6196787606d49eedb814ffce536803ed291a03",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/af6196787606d49eedb814ffce536803ed291a03"
+        },
+        {
+          "name": "moteus_c1_sw",
+          "sha": "e6a5770190649f3a429b1c2ba612874d44885abe",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/e6a5770190649f3a429b1c2ba612874d44885abe"
+        },
+        {
+          "name": "position_velocity_fault",
+          "sha": "3db3c43914232a0f7fd6e32c5c4ccef47ada897c",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/3db3c43914232a0f7fd6e32c5c4ccef47ada897c"
+        },
+        {
+          "name": "pwm_out",
+          "sha": "efba5e96e740e20bc57a4a2da2e52246c6594a9a",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/efba5e96e740e20bc57a4a2da2e52246c6594a9a"
+        },
+        {
+          "name": "release/cpp-1.0.x",
+          "sha": "d38a25326b47077e0e5645492e9b7cb1b84d5f8e",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/d38a25326b47077e0e5645492e9b7cb1b84d5f8e"
+        },
+        {
+          "name": "release/firmware-1.0.x",
+          "sha": "6f063a90a97012dc9f6ccc420390c5a6cc55fac7",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/6f063a90a97012dc9f6ccc420390c5a6cc55fac7"
+        },
+        {
+          "name": "release/python-1.0.x",
+          "sha": "2125e2502dc9beccbc52d669a6d7a5998e35297f",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/2125e2502dc9beccbc52d669a6d7a5998e35297f"
+        },
+        {
+          "name": "rust",
+          "sha": "6c23c88ed847508d91b15218063aff93c7391ca4",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/6c23c88ed847508d91b15218063aff93c7391ca4"
+        },
+        {
+          "name": "zero-angle-trigger-aux2-rt",
+          "sha": "0a2fd469fcf3b2752b6280bb0901c12b910760d2",
+          "api_url": "https://api.github.com/repos/jyjblrd/moteus/commits/0a2fd469fcf3b2752b6280bb0901c12b910760d2"
+        }
+      ],
+      "pull_requests": [
+        {
+          "number": 1,
+          "state": "open",
+          "title": "MCOUT: optional speed-dependent cyclic phase advance",
+          "url": "https://github.com/jyjblrd/moteus/pull/1",
+          "head_repo": "metalogiclabs/moteus",
+          "head_ref": "pr/mcout-cyclic-phase-speed-schedule",
+          "head_sha": "7bd39cf10a045b10c26a32241117e2dad60d08c9",
+          "base_ref": "main",
+          "base_sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/jyjblrd/moteus",
+        "https://api.github.com/repos/jyjblrd/moteus/branches?per_page=100",
+        "https://api.github.com/repos/jyjblrd/moteus/pulls?state=all&per_page=100"
+      ]
+    },
+    "jyjblrd/ardupilot": {
+      "metadata": {
+        "full_name": "jyjblrd/ardupilot",
+        "default_branch": "master",
+        "fork": true,
+        "parent": "ArduPilot/ardupilot",
+        "source": "ArduPilot/ardupilot",
+        "description": "Single Motor Drone Fork",
+        "forks_count": 8,
+        "html_url": "https://github.com/jyjblrd/ardupilot"
+      },
+      "branches": [
+        {
+          "name": "AP_Periph-1.0",
+          "sha": "a732f99ec41db3a0783e195fc64ebf61fd4adbc4",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/a732f99ec41db3a0783e195fc64ebf61fd4adbc4"
+        },
+        {
+          "name": "AP_Periph-1.1",
+          "sha": "c2dce806ddc16aae6c48315e5835e59ac67341af",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/c2dce806ddc16aae6c48315e5835e59ac67341af"
+        },
+        {
+          "name": "AP_Periph-1.2",
+          "sha": "e6c71b565f71e038f7e096f5c1df55891162a577",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/e6c71b565f71e038f7e096f5c1df55891162a577"
+        },
+        {
+          "name": "AP_Periph-1.3",
+          "sha": "8c8682c0d197db8c6997dc9040117953f43056b9",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/8c8682c0d197db8c6997dc9040117953f43056b9"
+        },
+        {
+          "name": "AP_Periph-1.4",
+          "sha": "b20d8a7022ccdbffba47bdc0e36baacd313f4a0a",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/b20d8a7022ccdbffba47bdc0e36baacd313f4a0a"
+        },
+        {
+          "name": "AP_Periph-1.5",
+          "sha": "11a50064c6d1c332d89afb15f3d956689a155b23",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/11a50064c6d1c332d89afb15f3d956689a155b23"
+        },
+        {
+          "name": "AP_Periph-1.6",
+          "sha": "6e5198482f449cbfdde765364954d33ae1172d8c",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/6e5198482f449cbfdde765364954d33ae1172d8c"
+        },
+        {
+          "name": "AP_Periph-1.7",
+          "sha": "9c6f307faa5b7f770af23ecbb1e7a8e0928d4bcf",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/9c6f307faa5b7f770af23ecbb1e7a8e0928d4bcf"
+        },
+        {
+          "name": "AP_Periph-1.8",
+          "sha": "93c5be03ba737c585520a49598d3584851478f5f",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/93c5be03ba737c585520a49598d3584851478f5f"
+        },
+        {
+          "name": "APMrover2-3.1.1",
+          "sha": "77319bb7b28e81051131a5644b060348e416cd14",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/77319bb7b28e81051131a5644b060348e416cd14"
+        },
+        {
+          "name": "APMrover2-release",
+          "sha": "0fa522b805b97c438aa3976e8bea45598c46d4a9",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/0fa522b805b97c438aa3976e8bea45598c46d4a9"
+        },
+        {
+          "name": "AntennaTracker-release",
+          "sha": "cdf3ba839b38956da8cc8bc0639977a36432aefd",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/cdf3ba839b38956da8cc8bc0639977a36432aefd"
+        },
+        {
+          "name": "ArduCopter-2.8.1",
+          "sha": "55ff88a35ed8e625088cc48981c74f3fdf7857bc",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/55ff88a35ed8e625088cc48981c74f3fdf7857bc"
+        },
+        {
+          "name": "ArduCopter-2.9",
+          "sha": "4fe904ea78d0a6cee3e0f478c7a2d78f4d5db2a8",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/4fe904ea78d0a6cee3e0f478c7a2d78f4d5db2a8"
+        },
+        {
+          "name": "ArduCopter-3.0",
+          "sha": "b0c5d9efd0dabcaed278b00b7a996c41bb9cc2b1",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/b0c5d9efd0dabcaed278b00b7a996c41bb9cc2b1"
+        },
+        {
+          "name": "ArduCopter-3.1",
+          "sha": "3c57e7719058163634ec63228309539e3c3a9170",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/3c57e7719058163634ec63228309539e3c3a9170"
+        },
+        {
+          "name": "ArduCopter-3.1.1",
+          "sha": "5a88bc4dd7529742a2e7e5cf291b4b295fa4b256",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/5a88bc4dd7529742a2e7e5cf291b4b295fa4b256"
+        },
+        {
+          "name": "ArduCopter-3.1.2",
+          "sha": "ee63c88b553f3da71e41de9cee22ccad8f162a54",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/ee63c88b553f3da71e41de9cee22ccad8f162a54"
+        },
+        {
+          "name": "ArduCopter-3.2",
+          "sha": "f5fb21b1d7e29c6ca136169b073fb215ca97f835",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/f5fb21b1d7e29c6ca136169b073fb215ca97f835"
+        },
+        {
+          "name": "ArduCopter-3.2.1",
+          "sha": "03373d35c29d299356a3d80f262f335e8f100814",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/03373d35c29d299356a3d80f262f335e8f100814"
+        },
+        {
+          "name": "ArduPilot-4.6",
+          "sha": "12a6efea39425b084234551355470341f71f79d4",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/12a6efea39425b084234551355470341f71f79d4"
+        },
+        {
+          "name": "ArduPilot-4.7",
+          "sha": "97775f82cec5bd50296c523be9baa0dacef9bb9e",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/97775f82cec5bd50296c523be9baa0dacef9bb9e"
+        },
+        {
+          "name": "ArduPlane-release",
+          "sha": "82c85de4694fbd759fde529fb7d3d6c37ad7ac6b",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/82c85de4694fbd759fde529fb7d3d6c37ad7ac6b"
+        },
+        {
+          "name": "ArduPlane-release-AVR",
+          "sha": "c1fc5a44371e0f8ad5114b71e15a0b21d5e6a4fc",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/c1fc5a44371e0f8ad5114b71e15a0b21d5e6a4fc"
+        },
+        {
+          "name": "Copter-3.3-pixracer",
+          "sha": "cce6cd3047539643d7b0265434aaa677581caee8",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/cce6cd3047539643d7b0265434aaa677581caee8"
+        },
+        {
+          "name": "Copter-3.3",
+          "sha": "acf2e10cd912bacad172627e2797db701c032c6e",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/acf2e10cd912bacad172627e2797db701c032c6e"
+        },
+        {
+          "name": "Copter-3.4",
+          "sha": "e707341b730173483b8d100245b6406723128164",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/e707341b730173483b8d100245b6406723128164"
+        },
+        {
+          "name": "Copter-3.5",
+          "sha": "b11c6af3e1e7c460010f5076352a0635e925b134",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/b11c6af3e1e7c460010f5076352a0635e925b134"
+        },
+        {
+          "name": "Copter-3.6",
+          "sha": "172988a2dcd2b2df2aa137a9867e1a23ed6c811a",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/172988a2dcd2b2df2aa137a9867e1a23ed6c811a"
+        },
+        {
+          "name": "Copter-3.6.8-hotfix",
+          "sha": "2f409678208e52bd5a94b37189509af4a4c0ba1b",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/2f409678208e52bd5a94b37189509af4a4c0ba1b"
+        },
+        {
+          "name": "Copter-4.0-ODID",
+          "sha": "4485ba0dfa5cbe197492688b7706949d987611c2",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/4485ba0dfa5cbe197492688b7706949d987611c2"
+        },
+        {
+          "name": "Copter-4.0",
+          "sha": "f0a6e90e5053571fbde2e9e770e82cfebfdfbb28",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/f0a6e90e5053571fbde2e9e770e82cfebfdfbb28"
+        },
+        {
+          "name": "Copter-4.1-ODID",
+          "sha": "11c1eb412364eac20369879b8153a3cfe33ccb7f",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/11c1eb412364eac20369879b8153a3cfe33ccb7f"
+        },
+        {
+          "name": "Copter-4.1",
+          "sha": "7898097b0c71b5fce361e33b5847b89a923c369d",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/7898097b0c71b5fce361e33b5847b89a923c369d"
+        },
+        {
+          "name": "Copter-4.2",
+          "sha": "245996c8609e683ad4bb988473df288314bb2599",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/245996c8609e683ad4bb988473df288314bb2599"
+        },
+        {
+          "name": "Copter-4.3",
+          "sha": "e2041b0ae7bcea8c4490566856801c6bcec78a21",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/e2041b0ae7bcea8c4490566856801c6bcec78a21"
+        },
+        {
+          "name": "Copter-4.4",
+          "sha": "865cffa5f2a850f892ab43def2d4ad21b8a9adca",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/865cffa5f2a850f892ab43def2d4ad21b8a9adca"
+        },
+        {
+          "name": "Copter-4.5",
+          "sha": "b72075518ff1409438a817a1dd9eea4828d28642",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/b72075518ff1409438a817a1dd9eea4828d28642"
+        },
+        {
+          "name": "Plane-4.1",
+          "sha": "f9db02a376a0abc407276ee4155e5540a3bb383e",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/f9db02a376a0abc407276ee4155e5540a3bb383e"
+        },
+        {
+          "name": "Plane-4.2",
+          "sha": "55685c43ac88a54273ee6ab518bfe4a8dcf626df",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/55685c43ac88a54273ee6ab518bfe4a8dcf626df"
+        },
+        {
+          "name": "Plane-4.3",
+          "sha": "022edec340d2c05870996a547caca5fad670dd0e",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/022edec340d2c05870996a547caca5fad670dd0e"
+        },
+        {
+          "name": "Plane-4.4",
+          "sha": "3e039eb372b196dc169de25e138af6dcab28269b",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/3e039eb372b196dc169de25e138af6dcab28269b"
+        },
+        {
+          "name": "Plane-4.5",
+          "sha": "5ddc3da537c569fbffc91fb2e70260e1ee7f61cd",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/5ddc3da537c569fbffc91fb2e70260e1ee7f61cd"
+        },
+        {
+          "name": "Rover-3.2",
+          "sha": "261f998fe08713b40353ed6974d00e038a2db30b",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/261f998fe08713b40353ed6974d00e038a2db30b"
+        },
+        {
+          "name": "Rover-3.3",
+          "sha": "bb43d01e5b6082875b6ce9484cbbca45b51590ff",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/bb43d01e5b6082875b6ce9484cbbca45b51590ff"
+        },
+        {
+          "name": "Rover-3.4",
+          "sha": "318a941d15c9d5e4a76b73541eac15cd0f3d50f9",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/318a941d15c9d5e4a76b73541eac15cd0f3d50f9"
+        },
+        {
+          "name": "Rover-3.5",
+          "sha": "16a1b5fc413610cd7adc73cc12df5b378b0d9e93",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/16a1b5fc413610cd7adc73cc12df5b378b0d9e93"
+        },
+        {
+          "name": "Rover-4.0",
+          "sha": "897170059db6e7ce0407f3590d80e10ed044fc49",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/897170059db6e7ce0407f3590d80e10ed044fc49"
+        },
+        {
+          "name": "Rover-4.1",
+          "sha": "3ef2b3f48ad485a2a964aeaa2126f2bd97fd5646",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/3ef2b3f48ad485a2a964aeaa2126f2bd97fd5646"
+        },
+        {
+          "name": "Rover-4.2",
+          "sha": "acee317572435b335335da7fbb96f27ef01c26e3",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/acee317572435b335335da7fbb96f27ef01c26e3"
+        },
+        {
+          "name": "Rover-4.3",
+          "sha": "c79d9508d17efefb9c9120729466288cbc295bf7",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/c79d9508d17efefb9c9120729466288cbc295bf7"
+        },
+        {
+          "name": "Rover-4.4",
+          "sha": "d0356316eb0fa34ed1c9f39f7b059b9ae7ba4664",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/d0356316eb0fa34ed1c9f39f7b059b9ae7ba4664"
+        },
+        {
+          "name": "Rover-4.5",
+          "sha": "517d48c9df286ba3b080f091a486859994a9af94",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/517d48c9df286ba3b080f091a486859994a9af94"
+        },
+        {
+          "name": "Sub-3.5",
+          "sha": "54bfd1f751d3fe4ee3521fb87328aaa42fd311f9",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/54bfd1f751d3fe4ee3521fb87328aaa42fd311f9"
+        },
+        {
+          "name": "Sub-3.6",
+          "sha": "ad9d6e96d95dc82c88b0f508d34c911b39eef135",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/ad9d6e96d95dc82c88b0f508d34c911b39eef135"
+        },
+        {
+          "name": "Sub-4.0",
+          "sha": "fafbed6e631d6cd222e15c91cbb11a709a1e6e2e",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/fafbed6e631d6cd222e15c91cbb11a709a1e6e2e"
+        },
+        {
+          "name": "Sub-4.1",
+          "sha": "2dd0bb7d4c85ac48437f139d66df648fc0e1d4ae",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/2dd0bb7d4c85ac48437f139d66df648fc0e1d4ae"
+        },
+        {
+          "name": "Sub-4.5",
+          "sha": "abe1721cf52535af6eb2340e5cabed430dac76b5",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/abe1721cf52535af6eb2340e5cabed430dac76b5"
+        },
+        {
+          "name": "Tracker-1.1",
+          "sha": "830cd150a29ffbc839139991748cf56fc17a423f",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/830cd150a29ffbc839139991748cf56fc17a423f"
+        },
+        {
+          "name": "Tracker-4.2",
+          "sha": "e2b0e23902dcd320c8fe5bc9cf02abbf677364a2",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/e2b0e23902dcd320c8fe5bc9cf02abbf677364a2"
+        },
+        {
+          "name": "Tracker-4.4",
+          "sha": "f19bb07bb49ea275955e02073b09524444b3fa1c",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/f19bb07bb49ea275955e02073b09524444b3fa1c"
+        },
+        {
+          "name": "Tracker-4.5",
+          "sha": "40672121147c26ed34da2f60da8eaa7d59333d77",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/40672121147c26ed34da2f60da8eaa7d59333d77"
+        },
+        {
+          "name": "claude/vigorous-einstein-8a53eb",
+          "sha": "30e0e7d9bd22e82fda2541ff262c70e80a0c3bbf",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/30e0e7d9bd22e82fda2541ff262c70e80a0c3bbf"
+        },
+        {
+          "name": "copilot/fix-autotest-sitltest-sub",
+          "sha": "c86118b78f3663c22036050fd8e2bbba5667ba48",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/c86118b78f3663c22036050fd8e2bbba5667ba48"
+        },
+        {
+          "name": "coverity_scan",
+          "sha": "eff2cfa1d64d01d7383bf74e7414389ba6afcf62",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/eff2cfa1d64d01d7383bf74e7414389ba6afcf62"
+        },
+        {
+          "name": "flare-throttle-rate-limit",
+          "sha": "7cd2375e0798913d4bb1a3b7b2402502ea3635e5",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/7cd2375e0798913d4bb1a3b7b2402502ea3635e5"
+        },
+        {
+          "name": "jbird/ir-beacon-yaw",
+          "sha": "e23fe2cf41154bd51a7923524cfeb300675f0c61",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/e23fe2cf41154bd51a7923524cfeb300675f0c61"
+        },
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+        },
+        {
+          "name": "master-AVR",
+          "sha": "5703981f34e74c8eb19484b97fb6745621e066cb",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/5703981f34e74c8eb19484b97fb6745621e066cb"
+        },
+        {
+          "name": "new-features",
+          "sha": "7cbdd13b67fc3d9707ad3839fb4bf031875d60f9",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/7cbdd13b67fc3d9707ad3839fb4bf031875d60f9"
+        },
+        {
+          "name": "plane3.8",
+          "sha": "7dc5e040e1770941f573469f92fef215c9ed6fb2",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/7dc5e040e1770941f573469f92fef215c9ed6fb2"
+        },
+        {
+          "name": "plane3.9",
+          "sha": "9ede67141bc3367ab025a74cef9b61ba023d0371",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/9ede67141bc3367ab025a74cef9b61ba023d0371"
+        },
+        {
+          "name": "plane4.0",
+          "sha": "b319b275d51de8acf4c86efc4b3337c6923a5e7e",
+          "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/commits/b319b275d51de8acf4c86efc4b3337c6923a5e7e"
+        }
+      ],
+      "pull_requests": [],
+      "api_urls": [
+        "https://api.github.com/repos/jyjblrd/ardupilot",
+        "https://api.github.com/repos/jyjblrd/ardupilot/branches?per_page=100",
+        "https://api.github.com/repos/jyjblrd/ardupilot/pulls?state=all&per_page=100"
+      ]
+    }
+  },
+  "upstream_branch_snapshots": {
+    "ArduPilot/ardupilot": {
+      "branches": [
+        {
+          "name": "AP_Periph-1.0",
+          "sha": "a732f99ec41db3a0783e195fc64ebf61fd4adbc4",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/a732f99ec41db3a0783e195fc64ebf61fd4adbc4"
+        },
+        {
+          "name": "AP_Periph-1.1",
+          "sha": "c2dce806ddc16aae6c48315e5835e59ac67341af",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/c2dce806ddc16aae6c48315e5835e59ac67341af"
+        },
+        {
+          "name": "AP_Periph-1.2",
+          "sha": "e6c71b565f71e038f7e096f5c1df55891162a577",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/e6c71b565f71e038f7e096f5c1df55891162a577"
+        },
+        {
+          "name": "AP_Periph-1.3",
+          "sha": "8c8682c0d197db8c6997dc9040117953f43056b9",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/8c8682c0d197db8c6997dc9040117953f43056b9"
+        },
+        {
+          "name": "AP_Periph-1.4",
+          "sha": "b20d8a7022ccdbffba47bdc0e36baacd313f4a0a",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/b20d8a7022ccdbffba47bdc0e36baacd313f4a0a"
+        },
+        {
+          "name": "AP_Periph-1.5",
+          "sha": "11a50064c6d1c332d89afb15f3d956689a155b23",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/11a50064c6d1c332d89afb15f3d956689a155b23"
+        },
+        {
+          "name": "AP_Periph-1.6",
+          "sha": "6e5198482f449cbfdde765364954d33ae1172d8c",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/6e5198482f449cbfdde765364954d33ae1172d8c"
+        },
+        {
+          "name": "AP_Periph-1.7",
+          "sha": "9c6f307faa5b7f770af23ecbb1e7a8e0928d4bcf",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/9c6f307faa5b7f770af23ecbb1e7a8e0928d4bcf"
+        },
+        {
+          "name": "AP_Periph-1.8",
+          "sha": "93c5be03ba737c585520a49598d3584851478f5f",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/93c5be03ba737c585520a49598d3584851478f5f"
+        },
+        {
+          "name": "APMrover2-3.1.1",
+          "sha": "77319bb7b28e81051131a5644b060348e416cd14",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/77319bb7b28e81051131a5644b060348e416cd14"
+        },
+        {
+          "name": "APMrover2-release",
+          "sha": "0fa522b805b97c438aa3976e8bea45598c46d4a9",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/0fa522b805b97c438aa3976e8bea45598c46d4a9"
+        },
+        {
+          "name": "AntennaTracker-release",
+          "sha": "cdf3ba839b38956da8cc8bc0639977a36432aefd",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/cdf3ba839b38956da8cc8bc0639977a36432aefd"
+        },
+        {
+          "name": "ArduCopter-2.8.1",
+          "sha": "55ff88a35ed8e625088cc48981c74f3fdf7857bc",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/55ff88a35ed8e625088cc48981c74f3fdf7857bc"
+        },
+        {
+          "name": "ArduCopter-2.9",
+          "sha": "4fe904ea78d0a6cee3e0f478c7a2d78f4d5db2a8",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/4fe904ea78d0a6cee3e0f478c7a2d78f4d5db2a8"
+        },
+        {
+          "name": "ArduCopter-3.0",
+          "sha": "b0c5d9efd0dabcaed278b00b7a996c41bb9cc2b1",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/b0c5d9efd0dabcaed278b00b7a996c41bb9cc2b1"
+        },
+        {
+          "name": "ArduCopter-3.1",
+          "sha": "3c57e7719058163634ec63228309539e3c3a9170",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/3c57e7719058163634ec63228309539e3c3a9170"
+        },
+        {
+          "name": "ArduCopter-3.1.1",
+          "sha": "5a88bc4dd7529742a2e7e5cf291b4b295fa4b256",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/5a88bc4dd7529742a2e7e5cf291b4b295fa4b256"
+        },
+        {
+          "name": "ArduCopter-3.1.2",
+          "sha": "ee63c88b553f3da71e41de9cee22ccad8f162a54",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/ee63c88b553f3da71e41de9cee22ccad8f162a54"
+        },
+        {
+          "name": "ArduCopter-3.2",
+          "sha": "f5fb21b1d7e29c6ca136169b073fb215ca97f835",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/f5fb21b1d7e29c6ca136169b073fb215ca97f835"
+        },
+        {
+          "name": "ArduCopter-3.2.1",
+          "sha": "03373d35c29d299356a3d80f262f335e8f100814",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/03373d35c29d299356a3d80f262f335e8f100814"
+        },
+        {
+          "name": "ArduPilot-4.6",
+          "sha": "913e171eca7a37549d9f02e442698edfd4490435",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/913e171eca7a37549d9f02e442698edfd4490435"
+        },
+        {
+          "name": "ArduPilot-4.7",
+          "sha": "fbd0a3160c90a557c24ce4c38c16975532652536",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/fbd0a3160c90a557c24ce4c38c16975532652536"
+        },
+        {
+          "name": "ArduPlane-release",
+          "sha": "82c85de4694fbd759fde529fb7d3d6c37ad7ac6b",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/82c85de4694fbd759fde529fb7d3d6c37ad7ac6b"
+        },
+        {
+          "name": "ArduPlane-release-AVR",
+          "sha": "c1fc5a44371e0f8ad5114b71e15a0b21d5e6a4fc",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/c1fc5a44371e0f8ad5114b71e15a0b21d5e6a4fc"
+        },
+        {
+          "name": "Copter-3.3-pixracer",
+          "sha": "cce6cd3047539643d7b0265434aaa677581caee8",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/cce6cd3047539643d7b0265434aaa677581caee8"
+        },
+        {
+          "name": "Copter-3.3",
+          "sha": "acf2e10cd912bacad172627e2797db701c032c6e",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/acf2e10cd912bacad172627e2797db701c032c6e"
+        },
+        {
+          "name": "Copter-3.4",
+          "sha": "e707341b730173483b8d100245b6406723128164",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/e707341b730173483b8d100245b6406723128164"
+        },
+        {
+          "name": "Copter-3.5",
+          "sha": "b11c6af3e1e7c460010f5076352a0635e925b134",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/b11c6af3e1e7c460010f5076352a0635e925b134"
+        },
+        {
+          "name": "Copter-3.6",
+          "sha": "172988a2dcd2b2df2aa137a9867e1a23ed6c811a",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/172988a2dcd2b2df2aa137a9867e1a23ed6c811a"
+        },
+        {
+          "name": "Copter-3.6.8-hotfix",
+          "sha": "2f409678208e52bd5a94b37189509af4a4c0ba1b",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/2f409678208e52bd5a94b37189509af4a4c0ba1b"
+        },
+        {
+          "name": "Copter-4.0-ODID",
+          "sha": "4485ba0dfa5cbe197492688b7706949d987611c2",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/4485ba0dfa5cbe197492688b7706949d987611c2"
+        },
+        {
+          "name": "Copter-4.0",
+          "sha": "f0a6e90e5053571fbde2e9e770e82cfebfdfbb28",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/f0a6e90e5053571fbde2e9e770e82cfebfdfbb28"
+        },
+        {
+          "name": "Copter-4.1-ODID",
+          "sha": "11c1eb412364eac20369879b8153a3cfe33ccb7f",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/11c1eb412364eac20369879b8153a3cfe33ccb7f"
+        },
+        {
+          "name": "Copter-4.1",
+          "sha": "7898097b0c71b5fce361e33b5847b89a923c369d",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/7898097b0c71b5fce361e33b5847b89a923c369d"
+        },
+        {
+          "name": "Copter-4.2",
+          "sha": "245996c8609e683ad4bb988473df288314bb2599",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/245996c8609e683ad4bb988473df288314bb2599"
+        },
+        {
+          "name": "Copter-4.3",
+          "sha": "e2041b0ae7bcea8c4490566856801c6bcec78a21",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/e2041b0ae7bcea8c4490566856801c6bcec78a21"
+        },
+        {
+          "name": "Copter-4.4",
+          "sha": "865cffa5f2a850f892ab43def2d4ad21b8a9adca",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/865cffa5f2a850f892ab43def2d4ad21b8a9adca"
+        },
+        {
+          "name": "Copter-4.5",
+          "sha": "b72075518ff1409438a817a1dd9eea4828d28642",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/b72075518ff1409438a817a1dd9eea4828d28642"
+        },
+        {
+          "name": "Plane-4.1",
+          "sha": "f9db02a376a0abc407276ee4155e5540a3bb383e",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/f9db02a376a0abc407276ee4155e5540a3bb383e"
+        },
+        {
+          "name": "Plane-4.2",
+          "sha": "55685c43ac88a54273ee6ab518bfe4a8dcf626df",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/55685c43ac88a54273ee6ab518bfe4a8dcf626df"
+        },
+        {
+          "name": "Plane-4.3",
+          "sha": "022edec340d2c05870996a547caca5fad670dd0e",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/022edec340d2c05870996a547caca5fad670dd0e"
+        },
+        {
+          "name": "Plane-4.4",
+          "sha": "3e039eb372b196dc169de25e138af6dcab28269b",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/3e039eb372b196dc169de25e138af6dcab28269b"
+        },
+        {
+          "name": "Plane-4.5",
+          "sha": "5ddc3da537c569fbffc91fb2e70260e1ee7f61cd",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/5ddc3da537c569fbffc91fb2e70260e1ee7f61cd"
+        },
+        {
+          "name": "Rover-3.2",
+          "sha": "261f998fe08713b40353ed6974d00e038a2db30b",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/261f998fe08713b40353ed6974d00e038a2db30b"
+        },
+        {
+          "name": "Rover-3.3",
+          "sha": "bb43d01e5b6082875b6ce9484cbbca45b51590ff",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/bb43d01e5b6082875b6ce9484cbbca45b51590ff"
+        },
+        {
+          "name": "Rover-3.4",
+          "sha": "318a941d15c9d5e4a76b73541eac15cd0f3d50f9",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/318a941d15c9d5e4a76b73541eac15cd0f3d50f9"
+        },
+        {
+          "name": "Rover-3.5",
+          "sha": "16a1b5fc413610cd7adc73cc12df5b378b0d9e93",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/16a1b5fc413610cd7adc73cc12df5b378b0d9e93"
+        },
+        {
+          "name": "Rover-4.0",
+          "sha": "897170059db6e7ce0407f3590d80e10ed044fc49",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/897170059db6e7ce0407f3590d80e10ed044fc49"
+        },
+        {
+          "name": "Rover-4.1",
+          "sha": "3ef2b3f48ad485a2a964aeaa2126f2bd97fd5646",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/3ef2b3f48ad485a2a964aeaa2126f2bd97fd5646"
+        },
+        {
+          "name": "Rover-4.2",
+          "sha": "acee317572435b335335da7fbb96f27ef01c26e3",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/acee317572435b335335da7fbb96f27ef01c26e3"
+        },
+        {
+          "name": "Rover-4.3",
+          "sha": "c79d9508d17efefb9c9120729466288cbc295bf7",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/c79d9508d17efefb9c9120729466288cbc295bf7"
+        },
+        {
+          "name": "Rover-4.4",
+          "sha": "d0356316eb0fa34ed1c9f39f7b059b9ae7ba4664",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/d0356316eb0fa34ed1c9f39f7b059b9ae7ba4664"
+        },
+        {
+          "name": "Rover-4.5",
+          "sha": "517d48c9df286ba3b080f091a486859994a9af94",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/517d48c9df286ba3b080f091a486859994a9af94"
+        },
+        {
+          "name": "Sub-3.5",
+          "sha": "54bfd1f751d3fe4ee3521fb87328aaa42fd311f9",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/54bfd1f751d3fe4ee3521fb87328aaa42fd311f9"
+        },
+        {
+          "name": "Sub-3.6",
+          "sha": "ad9d6e96d95dc82c88b0f508d34c911b39eef135",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/ad9d6e96d95dc82c88b0f508d34c911b39eef135"
+        },
+        {
+          "name": "Sub-4.0",
+          "sha": "fafbed6e631d6cd222e15c91cbb11a709a1e6e2e",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/fafbed6e631d6cd222e15c91cbb11a709a1e6e2e"
+        },
+        {
+          "name": "Sub-4.1",
+          "sha": "2dd0bb7d4c85ac48437f139d66df648fc0e1d4ae",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/2dd0bb7d4c85ac48437f139d66df648fc0e1d4ae"
+        },
+        {
+          "name": "Sub-4.5",
+          "sha": "abe1721cf52535af6eb2340e5cabed430dac76b5",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/abe1721cf52535af6eb2340e5cabed430dac76b5"
+        },
+        {
+          "name": "Tracker-1.1",
+          "sha": "830cd150a29ffbc839139991748cf56fc17a423f",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/830cd150a29ffbc839139991748cf56fc17a423f"
+        },
+        {
+          "name": "Tracker-4.2",
+          "sha": "e2b0e23902dcd320c8fe5bc9cf02abbf677364a2",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/e2b0e23902dcd320c8fe5bc9cf02abbf677364a2"
+        },
+        {
+          "name": "Tracker-4.4",
+          "sha": "f19bb07bb49ea275955e02073b09524444b3fa1c",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/f19bb07bb49ea275955e02073b09524444b3fa1c"
+        },
+        {
+          "name": "Tracker-4.5",
+          "sha": "40672121147c26ed34da2f60da8eaa7d59333d77",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/40672121147c26ed34da2f60da8eaa7d59333d77"
+        },
+        {
+          "name": "coverity_scan",
+          "sha": "eff2cfa1d64d01d7383bf74e7414389ba6afcf62",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/eff2cfa1d64d01d7383bf74e7414389ba6afcf62"
+        },
+        {
+          "name": "dependabot/github_actions/github-actions-6d1c06d137",
+          "sha": "a6682dd8403883976328e4566fd9ae5f3bf26dca",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/a6682dd8403883976328e4566fd9ae5f3bf26dca"
+        },
+        {
+          "name": "flare-throttle-rate-limit",
+          "sha": "7cd2375e0798913d4bb1a3b7b2402502ea3635e5",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/7cd2375e0798913d4bb1a3b7b2402502ea3635e5"
+        },
+        {
+          "name": "master",
+          "sha": "72b238201f5ea3b556e3809b2ec704fcf701474a",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/72b238201f5ea3b556e3809b2ec704fcf701474a"
+        },
+        {
+          "name": "master-AVR",
+          "sha": "5703981f34e74c8eb19484b97fb6745621e066cb",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/5703981f34e74c8eb19484b97fb6745621e066cb"
+        },
+        {
+          "name": "plane3.8",
+          "sha": "7dc5e040e1770941f573469f92fef215c9ed6fb2",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/7dc5e040e1770941f573469f92fef215c9ed6fb2"
+        },
+        {
+          "name": "plane3.9",
+          "sha": "9ede67141bc3367ab025a74cef9b61ba023d0371",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/9ede67141bc3367ab025a74cef9b61ba023d0371"
+        },
+        {
+          "name": "plane4.0",
+          "sha": "b319b275d51de8acf4c86efc4b3337c6923a5e7e",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/b319b275d51de8acf4c86efc4b3337c6923a5e7e"
+        },
+        {
+          "name": "pr-param-extended",
+          "sha": "42ded4dc358d3510a6ea258c2abfa913e9ecadcd",
+          "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/commits/42ded4dc358d3510a6ea258c2abfa913e9ecadcd"
+        }
+      ],
+      "api_url": "https://api.github.com/repos/ArduPilot/ardupilot/branches?per_page=100"
+    },
+    "mjbots/moteus": {
+      "branches": [
+        {
+          "name": "20240607-timeout-encoder",
+          "sha": "9f12a391ea03b446bc98305897c43dffad394ddd",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/9f12a391ea03b446bc98305897c43dffad394ddd"
+        },
+        {
+          "name": "20240610-ma732_trim",
+          "sha": "a726955ccbe0a15e73735adf2cb9e81d4afd53e5",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/a726955ccbe0a15e73735adf2cb9e81d4afd53e5"
+        },
+        {
+          "name": "20250729-debug",
+          "sha": "954214c9291c18d9e68ef971e7c7c9100fc0441d",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/954214c9291c18d9e68ef971e7c7c9100fc0441d"
+        },
+        {
+          "name": "WIP_clock_synchronize",
+          "sha": "bab6aac33cd02d4ab041840d9b5ff001c5f2895e",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/bab6aac33cd02d4ab041840d9b5ff001c5f2895e"
+        },
+        {
+          "name": "WIP_expose_control_position",
+          "sha": "4077cab3269d641cbfe02a028a4fa001453276d6",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/4077cab3269d641cbfe02a028a4fa001453276d6"
+        },
+        {
+          "name": "WIP_jerk_limit",
+          "sha": "2950d96bfad9ab5ac39d78f5a37297fdc98ea9b8",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/2950d96bfad9ab5ac39d78f5a37297fdc98ea9b8"
+        },
+        {
+          "name": "alternate_transport",
+          "sha": "f773152dbf36c32ba70a7a822790b44dc220a8e0",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/f773152dbf36c32ba70a7a822790b44dc220a8e0"
+        },
+        {
+          "name": "bissc",
+          "sha": "d52d6a977e712c50da2b55c5715c4847ac3844a2",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/d52d6a977e712c50da2b55c5715c4847ac3844a2"
+        },
+        {
+          "name": "claude/adaptive-decel-trajectory-Mv4Jp",
+          "sha": "64d7cab590ec933ab03aa3df0a19ae10362e6e8d",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/64d7cab590ec933ab03aa3df0a19ae10362e6e8d"
+        },
+        {
+          "name": "claude/add-python-type-checking-VPmSl",
+          "sha": "f87be41640718a0a7984028254353c4c56f04c4c",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/f87be41640718a0a7984028254353c4c56f04c4c"
+        },
+        {
+          "name": "claude/build-and-test-host-b9P43",
+          "sha": "3d504914f480da283d066dc0719d75e46f80c132",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/3d504914f480da283d066dc0719d75e46f80c132"
+        },
+        {
+          "name": "claude/fix-acceleration-trajectory-Mv4Jp",
+          "sha": "863db20cd7030b14b1d803378707d893033b8b3c",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/863db20cd7030b14b1d803378707d893033b8b3c"
+        },
+        {
+          "name": "claude/fix-acceleration-trajectory-y0eTA",
+          "sha": "23d82f851553598bb9676ab246e15a3a49a8cedb",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/23d82f851553598bb9676ab246e15a3a49a8cedb"
+        },
+        {
+          "name": "claude/test-code-execution-3325M",
+          "sha": "2df336db727a2ebb24890565478e74bf4d5d0d6a",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/2df336db727a2ebb24890565478e74bf4d5d0d6a"
+        },
+        {
+          "name": "claude/trajectory-optimization-Mv4Jp",
+          "sha": "d5fa0dabff035eb1d03813b9b541a61736fa2ca2",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/d5fa0dabff035eb1d03813b9b541a61736fa2ca2"
+        },
+        {
+          "name": "cmake",
+          "sha": "0b647b1dfb895ef89feeffa00374ab65fea6d325",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/0b647b1dfb895ef89feeffa00374ab65fea6d325"
+        },
+        {
+          "name": "d_axis_command",
+          "sha": "19bd186316ab0600c304cda7472d9d469628aadd",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/19bd186316ab0600c304cda7472d9d469628aadd"
+        },
+        {
+          "name": "encoder_mk2.5",
+          "sha": "d53b67b6c9d1a78138c566c229d8ef26fe3e1a10",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/d53b67b6c9d1a78138c566c229d8ef26fe3e1a10"
+        },
+        {
+          "name": "encoder_mk2.7",
+          "sha": "4c0e1c4c853b9a78ffd5c8e19547be7e95d7340c",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/4c0e1c4c853b9a78ffd5c8e19547be7e95d7340c"
+        },
+        {
+          "name": "gh-pages",
+          "sha": "d3be4c00b46bf515732d6ab7dc37ff74f1152780",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/d3be4c00b46bf515732d6ab7dc37ff74f1152780"
+        },
+        {
+          "name": "hall-lost-tracking-fix",
+          "sha": "d3a038f4208a97badd9fb0fdfe25fc1c221c783a",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/d3a038f4208a97badd9fb0fdfe25fc1c221c783a"
+        },
+        {
+          "name": "ilimit_scale",
+          "sha": "64eca9a755c18c481a3c750836f0e3fd9a99fc22",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/64eca9a755c18c481a3c750836f0e3fd9a99fc22"
+        },
+        {
+          "name": "improved_hall",
+          "sha": "12406a61633d494aed070bca6728584c2ffb0250",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/12406a61633d494aed070bca6728584c2ffb0250"
+        },
+        {
+          "name": "inverted_index",
+          "sha": "1a74724cfc0b969cd1ae241e4ec3cd311d661455",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/1a74724cfc0b969cd1ae241e4ec3cd311d661455"
+        },
+        {
+          "name": "lib_cpp",
+          "sha": "43ddd76db93775c1a4b7c323c82125e825c971cd",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/43ddd76db93775c1a4b7c323c82125e825c971cd"
+        },
+        {
+          "name": "main",
+          "sha": "8f747f4ac448d117c1390b77ca2d80c27e751a56",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/8f747f4ac448d117c1390b77ca2d80c27e751a56"
+        },
+        {
+          "name": "moteus_c1_sw",
+          "sha": "e6a5770190649f3a429b1c2ba612874d44885abe",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/e6a5770190649f3a429b1c2ba612874d44885abe"
+        },
+        {
+          "name": "position_velocity_fault",
+          "sha": "3db3c43914232a0f7fd6e32c5c4ccef47ada897c",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/3db3c43914232a0f7fd6e32c5c4ccef47ada897c"
+        },
+        {
+          "name": "pwm_out",
+          "sha": "efba5e96e740e20bc57a4a2da2e52246c6594a9a",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/efba5e96e740e20bc57a4a2da2e52246c6594a9a"
+        },
+        {
+          "name": "release/cpp-1.0.x",
+          "sha": "d38a25326b47077e0e5645492e9b7cb1b84d5f8e",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/d38a25326b47077e0e5645492e9b7cb1b84d5f8e"
+        },
+        {
+          "name": "release/firmware-1.0.x",
+          "sha": "6f063a90a97012dc9f6ccc420390c5a6cc55fac7",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/6f063a90a97012dc9f6ccc420390c5a6cc55fac7"
+        },
+        {
+          "name": "release/firmware-1.1.x",
+          "sha": "2b21a16fa7e7ad9b8928aa13cb05027d3f30a018",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/2b21a16fa7e7ad9b8928aa13cb05027d3f30a018"
+        },
+        {
+          "name": "release/python-1.0.x",
+          "sha": "2125e2502dc9beccbc52d669a6d7a5998e35297f",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/2125e2502dc9beccbc52d669a6d7a5998e35297f"
+        },
+        {
+          "name": "rust_audit_upstream",
+          "sha": "122fc6e3604d55ee32043eb429c7f7aed7a95cb7",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/122fc6e3604d55ee32043eb429c7f7aed7a95cb7"
+        },
+        {
+          "name": "rust_negative_args",
+          "sha": "0521c212abdbf12e7506491c5dde9634d68023cc",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/0521c212abdbf12e7506491c5dde9634d68023cc"
+        },
+        {
+          "name": "rust",
+          "sha": "6c23c88ed847508d91b15218063aff93c7391ca4",
+          "api_url": "https://api.github.com/repos/mjbots/moteus/commits/6c23c88ed847508d91b15218063aff93c7391ca4"
+        }
+      ],
+      "api_url": "https://api.github.com/repos/mjbots/moteus/branches?per_page=100"
+    }
+  },
+  "verified_child_forks": {
+    "sadhu-sanjay/ardupilot": {
+      "metadata": {
+        "full_name": "sadhu-sanjay/ardupilot",
+        "default_branch": "master",
+        "fork": true,
+        "parent": "jyjblrd/ardupilot",
+        "source": "ArduPilot/ardupilot",
+        "description": "Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/sadhu-sanjay/ardupilot"
+      },
+      "branches": [
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/ardupilot/commits/455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/sadhu-sanjay/ardupilot",
+        "https://api.github.com/repos/sadhu-sanjay/ardupilot/branches?per_page=100",
+        "https://api.github.com/repos/sadhu-sanjay/ardupilot/pulls?state=all&per_page=100"
+      ]
+    },
+    "gyillikci/ardupilot": {
+      "metadata": {
+        "full_name": "gyillikci/ardupilot",
+        "default_branch": "master",
+        "fork": true,
+        "parent": "jyjblrd/ardupilot",
+        "source": "ArduPilot/ardupilot",
+        "description": "Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/gyillikci/ardupilot"
+      },
+      "branches": [
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "api_url": "https://api.github.com/repos/gyillikci/ardupilot/commits/455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/gyillikci/ardupilot",
+        "https://api.github.com/repos/gyillikci/ardupilot/branches?per_page=100",
+        "https://api.github.com/repos/gyillikci/ardupilot/pulls?state=all&per_page=100"
+      ]
+    },
+    "kalmancito/ardupilot": {
+      "metadata": {
+        "full_name": "kalmancito/ardupilot",
+        "default_branch": "master",
+        "fork": true,
+        "parent": "jyjblrd/ardupilot",
+        "source": "ArduPilot/ardupilot",
+        "description": "Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/kalmancito/ardupilot"
+      },
+      "branches": [
+        {
+          "name": "AP_Periph-1.0",
+          "sha": "a732f99ec41db3a0783e195fc64ebf61fd4adbc4",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/a732f99ec41db3a0783e195fc64ebf61fd4adbc4"
+        },
+        {
+          "name": "AP_Periph-1.1",
+          "sha": "c2dce806ddc16aae6c48315e5835e59ac67341af",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/c2dce806ddc16aae6c48315e5835e59ac67341af"
+        },
+        {
+          "name": "AP_Periph-1.2",
+          "sha": "e6c71b565f71e038f7e096f5c1df55891162a577",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/e6c71b565f71e038f7e096f5c1df55891162a577"
+        },
+        {
+          "name": "AP_Periph-1.3",
+          "sha": "8c8682c0d197db8c6997dc9040117953f43056b9",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/8c8682c0d197db8c6997dc9040117953f43056b9"
+        },
+        {
+          "name": "AP_Periph-1.4",
+          "sha": "b20d8a7022ccdbffba47bdc0e36baacd313f4a0a",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/b20d8a7022ccdbffba47bdc0e36baacd313f4a0a"
+        },
+        {
+          "name": "AP_Periph-1.5",
+          "sha": "11a50064c6d1c332d89afb15f3d956689a155b23",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/11a50064c6d1c332d89afb15f3d956689a155b23"
+        },
+        {
+          "name": "AP_Periph-1.6",
+          "sha": "6e5198482f449cbfdde765364954d33ae1172d8c",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/6e5198482f449cbfdde765364954d33ae1172d8c"
+        },
+        {
+          "name": "AP_Periph-1.7",
+          "sha": "9c6f307faa5b7f770af23ecbb1e7a8e0928d4bcf",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/9c6f307faa5b7f770af23ecbb1e7a8e0928d4bcf"
+        },
+        {
+          "name": "AP_Periph-1.8",
+          "sha": "93c5be03ba737c585520a49598d3584851478f5f",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/93c5be03ba737c585520a49598d3584851478f5f"
+        },
+        {
+          "name": "APMrover2-3.1.1",
+          "sha": "77319bb7b28e81051131a5644b060348e416cd14",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/77319bb7b28e81051131a5644b060348e416cd14"
+        },
+        {
+          "name": "APMrover2-release",
+          "sha": "0fa522b805b97c438aa3976e8bea45598c46d4a9",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/0fa522b805b97c438aa3976e8bea45598c46d4a9"
+        },
+        {
+          "name": "AntennaTracker-release",
+          "sha": "cdf3ba839b38956da8cc8bc0639977a36432aefd",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/cdf3ba839b38956da8cc8bc0639977a36432aefd"
+        },
+        {
+          "name": "ArduCopter-2.8.1",
+          "sha": "55ff88a35ed8e625088cc48981c74f3fdf7857bc",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/55ff88a35ed8e625088cc48981c74f3fdf7857bc"
+        },
+        {
+          "name": "ArduCopter-2.9",
+          "sha": "4fe904ea78d0a6cee3e0f478c7a2d78f4d5db2a8",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/4fe904ea78d0a6cee3e0f478c7a2d78f4d5db2a8"
+        },
+        {
+          "name": "ArduCopter-3.0",
+          "sha": "b0c5d9efd0dabcaed278b00b7a996c41bb9cc2b1",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/b0c5d9efd0dabcaed278b00b7a996c41bb9cc2b1"
+        },
+        {
+          "name": "ArduCopter-3.1",
+          "sha": "3c57e7719058163634ec63228309539e3c3a9170",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/3c57e7719058163634ec63228309539e3c3a9170"
+        },
+        {
+          "name": "ArduCopter-3.1.1",
+          "sha": "5a88bc4dd7529742a2e7e5cf291b4b295fa4b256",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/5a88bc4dd7529742a2e7e5cf291b4b295fa4b256"
+        },
+        {
+          "name": "ArduCopter-3.1.2",
+          "sha": "ee63c88b553f3da71e41de9cee22ccad8f162a54",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/ee63c88b553f3da71e41de9cee22ccad8f162a54"
+        },
+        {
+          "name": "ArduCopter-3.2",
+          "sha": "f5fb21b1d7e29c6ca136169b073fb215ca97f835",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/f5fb21b1d7e29c6ca136169b073fb215ca97f835"
+        },
+        {
+          "name": "ArduCopter-3.2.1",
+          "sha": "03373d35c29d299356a3d80f262f335e8f100814",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/03373d35c29d299356a3d80f262f335e8f100814"
+        },
+        {
+          "name": "ArduPilot-4.6",
+          "sha": "12a6efea39425b084234551355470341f71f79d4",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/12a6efea39425b084234551355470341f71f79d4"
+        },
+        {
+          "name": "ArduPilot-4.7",
+          "sha": "97775f82cec5bd50296c523be9baa0dacef9bb9e",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/97775f82cec5bd50296c523be9baa0dacef9bb9e"
+        },
+        {
+          "name": "ArduPlane-release",
+          "sha": "82c85de4694fbd759fde529fb7d3d6c37ad7ac6b",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/82c85de4694fbd759fde529fb7d3d6c37ad7ac6b"
+        },
+        {
+          "name": "ArduPlane-release-AVR",
+          "sha": "c1fc5a44371e0f8ad5114b71e15a0b21d5e6a4fc",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/c1fc5a44371e0f8ad5114b71e15a0b21d5e6a4fc"
+        },
+        {
+          "name": "Copter-3.3-pixracer",
+          "sha": "cce6cd3047539643d7b0265434aaa677581caee8",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/cce6cd3047539643d7b0265434aaa677581caee8"
+        },
+        {
+          "name": "Copter-3.3",
+          "sha": "acf2e10cd912bacad172627e2797db701c032c6e",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/acf2e10cd912bacad172627e2797db701c032c6e"
+        },
+        {
+          "name": "Copter-3.4",
+          "sha": "e707341b730173483b8d100245b6406723128164",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/e707341b730173483b8d100245b6406723128164"
+        },
+        {
+          "name": "Copter-3.5",
+          "sha": "b11c6af3e1e7c460010f5076352a0635e925b134",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/b11c6af3e1e7c460010f5076352a0635e925b134"
+        },
+        {
+          "name": "Copter-3.6",
+          "sha": "172988a2dcd2b2df2aa137a9867e1a23ed6c811a",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/172988a2dcd2b2df2aa137a9867e1a23ed6c811a"
+        },
+        {
+          "name": "Copter-3.6.8-hotfix",
+          "sha": "2f409678208e52bd5a94b37189509af4a4c0ba1b",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/2f409678208e52bd5a94b37189509af4a4c0ba1b"
+        },
+        {
+          "name": "Copter-4.0-ODID",
+          "sha": "4485ba0dfa5cbe197492688b7706949d987611c2",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/4485ba0dfa5cbe197492688b7706949d987611c2"
+        },
+        {
+          "name": "Copter-4.0",
+          "sha": "f0a6e90e5053571fbde2e9e770e82cfebfdfbb28",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/f0a6e90e5053571fbde2e9e770e82cfebfdfbb28"
+        },
+        {
+          "name": "Copter-4.1-ODID",
+          "sha": "11c1eb412364eac20369879b8153a3cfe33ccb7f",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/11c1eb412364eac20369879b8153a3cfe33ccb7f"
+        },
+        {
+          "name": "Copter-4.1",
+          "sha": "7898097b0c71b5fce361e33b5847b89a923c369d",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/7898097b0c71b5fce361e33b5847b89a923c369d"
+        },
+        {
+          "name": "Copter-4.2",
+          "sha": "245996c8609e683ad4bb988473df288314bb2599",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/245996c8609e683ad4bb988473df288314bb2599"
+        },
+        {
+          "name": "Copter-4.3",
+          "sha": "e2041b0ae7bcea8c4490566856801c6bcec78a21",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/e2041b0ae7bcea8c4490566856801c6bcec78a21"
+        },
+        {
+          "name": "Copter-4.4",
+          "sha": "865cffa5f2a850f892ab43def2d4ad21b8a9adca",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/865cffa5f2a850f892ab43def2d4ad21b8a9adca"
+        },
+        {
+          "name": "Copter-4.5",
+          "sha": "b72075518ff1409438a817a1dd9eea4828d28642",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/b72075518ff1409438a817a1dd9eea4828d28642"
+        },
+        {
+          "name": "Plane-4.1",
+          "sha": "f9db02a376a0abc407276ee4155e5540a3bb383e",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/f9db02a376a0abc407276ee4155e5540a3bb383e"
+        },
+        {
+          "name": "Plane-4.2",
+          "sha": "55685c43ac88a54273ee6ab518bfe4a8dcf626df",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/55685c43ac88a54273ee6ab518bfe4a8dcf626df"
+        },
+        {
+          "name": "Plane-4.3",
+          "sha": "022edec340d2c05870996a547caca5fad670dd0e",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/022edec340d2c05870996a547caca5fad670dd0e"
+        },
+        {
+          "name": "Plane-4.4",
+          "sha": "3e039eb372b196dc169de25e138af6dcab28269b",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/3e039eb372b196dc169de25e138af6dcab28269b"
+        },
+        {
+          "name": "Plane-4.5",
+          "sha": "5ddc3da537c569fbffc91fb2e70260e1ee7f61cd",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/5ddc3da537c569fbffc91fb2e70260e1ee7f61cd"
+        },
+        {
+          "name": "Rover-3.2",
+          "sha": "261f998fe08713b40353ed6974d00e038a2db30b",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/261f998fe08713b40353ed6974d00e038a2db30b"
+        },
+        {
+          "name": "Rover-3.3",
+          "sha": "bb43d01e5b6082875b6ce9484cbbca45b51590ff",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/bb43d01e5b6082875b6ce9484cbbca45b51590ff"
+        },
+        {
+          "name": "Rover-3.4",
+          "sha": "318a941d15c9d5e4a76b73541eac15cd0f3d50f9",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/318a941d15c9d5e4a76b73541eac15cd0f3d50f9"
+        },
+        {
+          "name": "Rover-3.5",
+          "sha": "16a1b5fc413610cd7adc73cc12df5b378b0d9e93",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/16a1b5fc413610cd7adc73cc12df5b378b0d9e93"
+        },
+        {
+          "name": "Rover-4.0",
+          "sha": "897170059db6e7ce0407f3590d80e10ed044fc49",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/897170059db6e7ce0407f3590d80e10ed044fc49"
+        },
+        {
+          "name": "Rover-4.1",
+          "sha": "3ef2b3f48ad485a2a964aeaa2126f2bd97fd5646",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/3ef2b3f48ad485a2a964aeaa2126f2bd97fd5646"
+        },
+        {
+          "name": "Rover-4.2",
+          "sha": "acee317572435b335335da7fbb96f27ef01c26e3",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/acee317572435b335335da7fbb96f27ef01c26e3"
+        },
+        {
+          "name": "Rover-4.3",
+          "sha": "c79d9508d17efefb9c9120729466288cbc295bf7",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/c79d9508d17efefb9c9120729466288cbc295bf7"
+        },
+        {
+          "name": "Rover-4.4",
+          "sha": "d0356316eb0fa34ed1c9f39f7b059b9ae7ba4664",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/d0356316eb0fa34ed1c9f39f7b059b9ae7ba4664"
+        },
+        {
+          "name": "Rover-4.5",
+          "sha": "517d48c9df286ba3b080f091a486859994a9af94",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/517d48c9df286ba3b080f091a486859994a9af94"
+        },
+        {
+          "name": "Sub-3.5",
+          "sha": "54bfd1f751d3fe4ee3521fb87328aaa42fd311f9",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/54bfd1f751d3fe4ee3521fb87328aaa42fd311f9"
+        },
+        {
+          "name": "Sub-3.6",
+          "sha": "ad9d6e96d95dc82c88b0f508d34c911b39eef135",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/ad9d6e96d95dc82c88b0f508d34c911b39eef135"
+        },
+        {
+          "name": "Sub-4.0",
+          "sha": "fafbed6e631d6cd222e15c91cbb11a709a1e6e2e",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/fafbed6e631d6cd222e15c91cbb11a709a1e6e2e"
+        },
+        {
+          "name": "Sub-4.1",
+          "sha": "2dd0bb7d4c85ac48437f139d66df648fc0e1d4ae",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/2dd0bb7d4c85ac48437f139d66df648fc0e1d4ae"
+        },
+        {
+          "name": "Sub-4.5",
+          "sha": "abe1721cf52535af6eb2340e5cabed430dac76b5",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/abe1721cf52535af6eb2340e5cabed430dac76b5"
+        },
+        {
+          "name": "Tracker-1.1",
+          "sha": "830cd150a29ffbc839139991748cf56fc17a423f",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/830cd150a29ffbc839139991748cf56fc17a423f"
+        },
+        {
+          "name": "Tracker-4.2",
+          "sha": "e2b0e23902dcd320c8fe5bc9cf02abbf677364a2",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/e2b0e23902dcd320c8fe5bc9cf02abbf677364a2"
+        },
+        {
+          "name": "Tracker-4.4",
+          "sha": "f19bb07bb49ea275955e02073b09524444b3fa1c",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/f19bb07bb49ea275955e02073b09524444b3fa1c"
+        },
+        {
+          "name": "Tracker-4.5",
+          "sha": "40672121147c26ed34da2f60da8eaa7d59333d77",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/40672121147c26ed34da2f60da8eaa7d59333d77"
+        },
+        {
+          "name": "claude/vigorous-einstein-8a53eb",
+          "sha": "30e0e7d9bd22e82fda2541ff262c70e80a0c3bbf",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/30e0e7d9bd22e82fda2541ff262c70e80a0c3bbf"
+        },
+        {
+          "name": "copilot/fix-autotest-sitltest-sub",
+          "sha": "c86118b78f3663c22036050fd8e2bbba5667ba48",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/c86118b78f3663c22036050fd8e2bbba5667ba48"
+        },
+        {
+          "name": "coverity_scan",
+          "sha": "eff2cfa1d64d01d7383bf74e7414389ba6afcf62",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/eff2cfa1d64d01d7383bf74e7414389ba6afcf62"
+        },
+        {
+          "name": "flare-throttle-rate-limit",
+          "sha": "7cd2375e0798913d4bb1a3b7b2402502ea3635e5",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/7cd2375e0798913d4bb1a3b7b2402502ea3635e5"
+        },
+        {
+          "name": "jbird/ir-beacon-yaw",
+          "sha": "e23fe2cf41154bd51a7923524cfeb300675f0c61",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/e23fe2cf41154bd51a7923524cfeb300675f0c61"
+        },
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+        },
+        {
+          "name": "master-AVR",
+          "sha": "5703981f34e74c8eb19484b97fb6745621e066cb",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/5703981f34e74c8eb19484b97fb6745621e066cb"
+        },
+        {
+          "name": "new-features",
+          "sha": "7cbdd13b67fc3d9707ad3839fb4bf031875d60f9",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/7cbdd13b67fc3d9707ad3839fb4bf031875d60f9"
+        },
+        {
+          "name": "plane3.8",
+          "sha": "7dc5e040e1770941f573469f92fef215c9ed6fb2",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/7dc5e040e1770941f573469f92fef215c9ed6fb2"
+        },
+        {
+          "name": "plane3.9",
+          "sha": "9ede67141bc3367ab025a74cef9b61ba023d0371",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/9ede67141bc3367ab025a74cef9b61ba023d0371"
+        },
+        {
+          "name": "plane4.0",
+          "sha": "b319b275d51de8acf4c86efc4b3337c6923a5e7e",
+          "api_url": "https://api.github.com/repos/kalmancito/ardupilot/commits/b319b275d51de8acf4c86efc4b3337c6923a5e7e"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "AP_Periph-1.0",
+          "sha": "a732f99ec41db3a0783e195fc64ebf61fd4adbc4",
+          "identical": true
+        },
+        {
+          "name": "AP_Periph-1.1",
+          "sha": "c2dce806ddc16aae6c48315e5835e59ac67341af",
+          "identical": true
+        },
+        {
+          "name": "AP_Periph-1.2",
+          "sha": "e6c71b565f71e038f7e096f5c1df55891162a577",
+          "identical": true
+        },
+        {
+          "name": "AP_Periph-1.3",
+          "sha": "8c8682c0d197db8c6997dc9040117953f43056b9",
+          "identical": true
+        },
+        {
+          "name": "AP_Periph-1.4",
+          "sha": "b20d8a7022ccdbffba47bdc0e36baacd313f4a0a",
+          "identical": true
+        },
+        {
+          "name": "AP_Periph-1.5",
+          "sha": "11a50064c6d1c332d89afb15f3d956689a155b23",
+          "identical": true
+        },
+        {
+          "name": "AP_Periph-1.6",
+          "sha": "6e5198482f449cbfdde765364954d33ae1172d8c",
+          "identical": true
+        },
+        {
+          "name": "AP_Periph-1.7",
+          "sha": "9c6f307faa5b7f770af23ecbb1e7a8e0928d4bcf",
+          "identical": true
+        },
+        {
+          "name": "AP_Periph-1.8",
+          "sha": "93c5be03ba737c585520a49598d3584851478f5f",
+          "identical": true
+        },
+        {
+          "name": "APMrover2-3.1.1",
+          "sha": "77319bb7b28e81051131a5644b060348e416cd14",
+          "identical": true
+        },
+        {
+          "name": "APMrover2-release",
+          "sha": "0fa522b805b97c438aa3976e8bea45598c46d4a9",
+          "identical": true
+        },
+        {
+          "name": "AntennaTracker-release",
+          "sha": "cdf3ba839b38956da8cc8bc0639977a36432aefd",
+          "identical": true
+        },
+        {
+          "name": "ArduCopter-2.8.1",
+          "sha": "55ff88a35ed8e625088cc48981c74f3fdf7857bc",
+          "identical": true
+        },
+        {
+          "name": "ArduCopter-2.9",
+          "sha": "4fe904ea78d0a6cee3e0f478c7a2d78f4d5db2a8",
+          "identical": true
+        },
+        {
+          "name": "ArduCopter-3.0",
+          "sha": "b0c5d9efd0dabcaed278b00b7a996c41bb9cc2b1",
+          "identical": true
+        },
+        {
+          "name": "ArduCopter-3.1",
+          "sha": "3c57e7719058163634ec63228309539e3c3a9170",
+          "identical": true
+        },
+        {
+          "name": "ArduCopter-3.1.1",
+          "sha": "5a88bc4dd7529742a2e7e5cf291b4b295fa4b256",
+          "identical": true
+        },
+        {
+          "name": "ArduCopter-3.1.2",
+          "sha": "ee63c88b553f3da71e41de9cee22ccad8f162a54",
+          "identical": true
+        },
+        {
+          "name": "ArduCopter-3.2",
+          "sha": "f5fb21b1d7e29c6ca136169b073fb215ca97f835",
+          "identical": true
+        },
+        {
+          "name": "ArduCopter-3.2.1",
+          "sha": "03373d35c29d299356a3d80f262f335e8f100814",
+          "identical": true
+        },
+        {
+          "name": "ArduPilot-4.6",
+          "sha": "12a6efea39425b084234551355470341f71f79d4",
+          "identical": true
+        },
+        {
+          "name": "ArduPilot-4.7",
+          "sha": "97775f82cec5bd50296c523be9baa0dacef9bb9e",
+          "identical": true
+        },
+        {
+          "name": "ArduPlane-release",
+          "sha": "82c85de4694fbd759fde529fb7d3d6c37ad7ac6b",
+          "identical": true
+        },
+        {
+          "name": "ArduPlane-release-AVR",
+          "sha": "c1fc5a44371e0f8ad5114b71e15a0b21d5e6a4fc",
+          "identical": true
+        },
+        {
+          "name": "Copter-3.3-pixracer",
+          "sha": "cce6cd3047539643d7b0265434aaa677581caee8",
+          "identical": true
+        },
+        {
+          "name": "Copter-3.3",
+          "sha": "acf2e10cd912bacad172627e2797db701c032c6e",
+          "identical": true
+        },
+        {
+          "name": "Copter-3.4",
+          "sha": "e707341b730173483b8d100245b6406723128164",
+          "identical": true
+        },
+        {
+          "name": "Copter-3.5",
+          "sha": "b11c6af3e1e7c460010f5076352a0635e925b134",
+          "identical": true
+        },
+        {
+          "name": "Copter-3.6",
+          "sha": "172988a2dcd2b2df2aa137a9867e1a23ed6c811a",
+          "identical": true
+        },
+        {
+          "name": "Copter-3.6.8-hotfix",
+          "sha": "2f409678208e52bd5a94b37189509af4a4c0ba1b",
+          "identical": true
+        },
+        {
+          "name": "Copter-4.0-ODID",
+          "sha": "4485ba0dfa5cbe197492688b7706949d987611c2",
+          "identical": true
+        },
+        {
+          "name": "Copter-4.0",
+          "sha": "f0a6e90e5053571fbde2e9e770e82cfebfdfbb28",
+          "identical": true
+        },
+        {
+          "name": "Copter-4.1-ODID",
+          "sha": "11c1eb412364eac20369879b8153a3cfe33ccb7f",
+          "identical": true
+        },
+        {
+          "name": "Copter-4.1",
+          "sha": "7898097b0c71b5fce361e33b5847b89a923c369d",
+          "identical": true
+        },
+        {
+          "name": "Copter-4.2",
+          "sha": "245996c8609e683ad4bb988473df288314bb2599",
+          "identical": true
+        },
+        {
+          "name": "Copter-4.3",
+          "sha": "e2041b0ae7bcea8c4490566856801c6bcec78a21",
+          "identical": true
+        },
+        {
+          "name": "Copter-4.4",
+          "sha": "865cffa5f2a850f892ab43def2d4ad21b8a9adca",
+          "identical": true
+        },
+        {
+          "name": "Copter-4.5",
+          "sha": "b72075518ff1409438a817a1dd9eea4828d28642",
+          "identical": true
+        },
+        {
+          "name": "Plane-4.1",
+          "sha": "f9db02a376a0abc407276ee4155e5540a3bb383e",
+          "identical": true
+        },
+        {
+          "name": "Plane-4.2",
+          "sha": "55685c43ac88a54273ee6ab518bfe4a8dcf626df",
+          "identical": true
+        },
+        {
+          "name": "Plane-4.3",
+          "sha": "022edec340d2c05870996a547caca5fad670dd0e",
+          "identical": true
+        },
+        {
+          "name": "Plane-4.4",
+          "sha": "3e039eb372b196dc169de25e138af6dcab28269b",
+          "identical": true
+        },
+        {
+          "name": "Plane-4.5",
+          "sha": "5ddc3da537c569fbffc91fb2e70260e1ee7f61cd",
+          "identical": true
+        },
+        {
+          "name": "Rover-3.2",
+          "sha": "261f998fe08713b40353ed6974d00e038a2db30b",
+          "identical": true
+        },
+        {
+          "name": "Rover-3.3",
+          "sha": "bb43d01e5b6082875b6ce9484cbbca45b51590ff",
+          "identical": true
+        },
+        {
+          "name": "Rover-3.4",
+          "sha": "318a941d15c9d5e4a76b73541eac15cd0f3d50f9",
+          "identical": true
+        },
+        {
+          "name": "Rover-3.5",
+          "sha": "16a1b5fc413610cd7adc73cc12df5b378b0d9e93",
+          "identical": true
+        },
+        {
+          "name": "Rover-4.0",
+          "sha": "897170059db6e7ce0407f3590d80e10ed044fc49",
+          "identical": true
+        },
+        {
+          "name": "Rover-4.1",
+          "sha": "3ef2b3f48ad485a2a964aeaa2126f2bd97fd5646",
+          "identical": true
+        },
+        {
+          "name": "Rover-4.2",
+          "sha": "acee317572435b335335da7fbb96f27ef01c26e3",
+          "identical": true
+        },
+        {
+          "name": "Rover-4.3",
+          "sha": "c79d9508d17efefb9c9120729466288cbc295bf7",
+          "identical": true
+        },
+        {
+          "name": "Rover-4.4",
+          "sha": "d0356316eb0fa34ed1c9f39f7b059b9ae7ba4664",
+          "identical": true
+        },
+        {
+          "name": "Rover-4.5",
+          "sha": "517d48c9df286ba3b080f091a486859994a9af94",
+          "identical": true
+        },
+        {
+          "name": "Sub-3.5",
+          "sha": "54bfd1f751d3fe4ee3521fb87328aaa42fd311f9",
+          "identical": true
+        },
+        {
+          "name": "Sub-3.6",
+          "sha": "ad9d6e96d95dc82c88b0f508d34c911b39eef135",
+          "identical": true
+        },
+        {
+          "name": "Sub-4.0",
+          "sha": "fafbed6e631d6cd222e15c91cbb11a709a1e6e2e",
+          "identical": true
+        },
+        {
+          "name": "Sub-4.1",
+          "sha": "2dd0bb7d4c85ac48437f139d66df648fc0e1d4ae",
+          "identical": true
+        },
+        {
+          "name": "Sub-4.5",
+          "sha": "abe1721cf52535af6eb2340e5cabed430dac76b5",
+          "identical": true
+        },
+        {
+          "name": "Tracker-1.1",
+          "sha": "830cd150a29ffbc839139991748cf56fc17a423f",
+          "identical": true
+        },
+        {
+          "name": "Tracker-4.2",
+          "sha": "e2b0e23902dcd320c8fe5bc9cf02abbf677364a2",
+          "identical": true
+        },
+        {
+          "name": "Tracker-4.4",
+          "sha": "f19bb07bb49ea275955e02073b09524444b3fa1c",
+          "identical": true
+        },
+        {
+          "name": "Tracker-4.5",
+          "sha": "40672121147c26ed34da2f60da8eaa7d59333d77",
+          "identical": true
+        },
+        {
+          "name": "claude/vigorous-einstein-8a53eb",
+          "sha": "30e0e7d9bd22e82fda2541ff262c70e80a0c3bbf",
+          "identical": true
+        },
+        {
+          "name": "copilot/fix-autotest-sitltest-sub",
+          "sha": "c86118b78f3663c22036050fd8e2bbba5667ba48",
+          "identical": true
+        },
+        {
+          "name": "coverity_scan",
+          "sha": "eff2cfa1d64d01d7383bf74e7414389ba6afcf62",
+          "identical": true
+        },
+        {
+          "name": "flare-throttle-rate-limit",
+          "sha": "7cd2375e0798913d4bb1a3b7b2402502ea3635e5",
+          "identical": true
+        },
+        {
+          "name": "jbird/ir-beacon-yaw",
+          "sha": "e23fe2cf41154bd51a7923524cfeb300675f0c61",
+          "identical": true
+        },
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "identical": true
+        },
+        {
+          "name": "master-AVR",
+          "sha": "5703981f34e74c8eb19484b97fb6745621e066cb",
+          "identical": true
+        },
+        {
+          "name": "new-features",
+          "sha": "7cbdd13b67fc3d9707ad3839fb4bf031875d60f9",
+          "identical": true
+        },
+        {
+          "name": "plane3.8",
+          "sha": "7dc5e040e1770941f573469f92fef215c9ed6fb2",
+          "identical": true
+        },
+        {
+          "name": "plane3.9",
+          "sha": "9ede67141bc3367ab025a74cef9b61ba023d0371",
+          "identical": true
+        },
+        {
+          "name": "plane4.0",
+          "sha": "b319b275d51de8acf4c86efc4b3337c6923a5e7e",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/kalmancito/ardupilot",
+        "https://api.github.com/repos/kalmancito/ardupilot/branches?per_page=100",
+        "https://api.github.com/repos/kalmancito/ardupilot/pulls?state=all&per_page=100"
+      ]
+    },
+    "tsai1278/moteus": {
+      "metadata": {
+        "full_name": "tsai1278/moteus",
+        "default_branch": "main",
+        "fork": true,
+        "parent": "jyjblrd/moteus",
+        "source": "mjbots/moteus",
+        "description": "Moteus Brushless DC motor controller \u2013 Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/tsai1278/moteus"
+      },
+      "branches": [
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "api_url": "https://api.github.com/repos/tsai1278/moteus/commits/704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/tsai1278/moteus",
+        "https://api.github.com/repos/tsai1278/moteus/branches?per_page=100",
+        "https://api.github.com/repos/tsai1278/moteus/pulls?state=all&per_page=100"
+      ]
+    },
+    "charanakreddy/ardupilot": {
+      "metadata": {
+        "full_name": "charanakreddy/ardupilot",
+        "default_branch": "master",
+        "fork": true,
+        "parent": "jyjblrd/ardupilot",
+        "source": "ArduPilot/ardupilot",
+        "description": "Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/charanakreddy/ardupilot"
+      },
+      "branches": [
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "api_url": "https://api.github.com/repos/charanakreddy/ardupilot/commits/455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/charanakreddy/ardupilot",
+        "https://api.github.com/repos/charanakreddy/ardupilot/branches?per_page=100",
+        "https://api.github.com/repos/charanakreddy/ardupilot/pulls?state=all&per_page=100"
+      ]
+    },
+    "mcleber/ardupilot": {
+      "metadata": {
+        "full_name": "mcleber/ardupilot",
+        "default_branch": "master",
+        "fork": true,
+        "parent": "jyjblrd/ardupilot",
+        "source": "ArduPilot/ardupilot",
+        "description": "Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/mcleber/ardupilot"
+      },
+      "branches": [
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "api_url": "https://api.github.com/repos/mcleber/ardupilot/commits/455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/mcleber/ardupilot",
+        "https://api.github.com/repos/mcleber/ardupilot/branches?per_page=100",
+        "https://api.github.com/repos/mcleber/ardupilot/pulls?state=all&per_page=100"
+      ]
+    },
+    "Darknight92228/moteus": {
+      "metadata": {
+        "full_name": "Darknight92228/moteus",
+        "default_branch": "main",
+        "fork": true,
+        "parent": "jyjblrd/moteus",
+        "source": "mjbots/moteus",
+        "description": "Moteus Brushless DC motor controller \u2013 Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/Darknight92228/moteus"
+      },
+      "branches": [
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "api_url": "https://api.github.com/repos/Darknight92228/moteus/commits/704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/Darknight92228/moteus",
+        "https://api.github.com/repos/Darknight92228/moteus/branches?per_page=100",
+        "https://api.github.com/repos/Darknight92228/moteus/pulls?state=all&per_page=100"
+      ]
+    },
+    "fiamor/moteus": {
+      "metadata": {
+        "full_name": "fiamor/moteus",
+        "default_branch": "main",
+        "fork": true,
+        "parent": "jyjblrd/moteus",
+        "source": "mjbots/moteus",
+        "description": "Moteus Brushless DC motor controller \u2013 Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/fiamor/moteus"
+      },
+      "branches": [
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "api_url": "https://api.github.com/repos/fiamor/moteus/commits/704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/fiamor/moteus",
+        "https://api.github.com/repos/fiamor/moteus/branches?per_page=100",
+        "https://api.github.com/repos/fiamor/moteus/pulls?state=all&per_page=100"
+      ]
+    },
+    "mcleber/moteus": {
+      "metadata": {
+        "full_name": "mcleber/moteus",
+        "default_branch": "main",
+        "fork": true,
+        "parent": "jyjblrd/moteus",
+        "source": "mjbots/moteus",
+        "description": "Moteus Brushless DC motor controller \u2013 Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/mcleber/moteus"
+      },
+      "branches": [
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "api_url": "https://api.github.com/repos/mcleber/moteus/commits/704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/mcleber/moteus",
+        "https://api.github.com/repos/mcleber/moteus/branches?per_page=100",
+        "https://api.github.com/repos/mcleber/moteus/pulls?state=all&per_page=100"
+      ]
+    },
+    "kalmancito/moteus": {
+      "metadata": {
+        "full_name": "kalmancito/moteus",
+        "default_branch": "main",
+        "fork": true,
+        "parent": "jyjblrd/moteus",
+        "source": "mjbots/moteus",
+        "description": "Moteus Brushless DC motor controller \u2013 Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/kalmancito/moteus"
+      },
+      "branches": [
+        {
+          "name": "20240607-timeout-encoder",
+          "sha": "9f12a391ea03b446bc98305897c43dffad394ddd",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/9f12a391ea03b446bc98305897c43dffad394ddd"
+        },
+        {
+          "name": "20240610-ma732_trim",
+          "sha": "a726955ccbe0a15e73735adf2cb9e81d4afd53e5",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/a726955ccbe0a15e73735adf2cb9e81d4afd53e5"
+        },
+        {
+          "name": "20250729-debug",
+          "sha": "954214c9291c18d9e68ef971e7c7c9100fc0441d",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/954214c9291c18d9e68ef971e7c7c9100fc0441d"
+        },
+        {
+          "name": "WIP_clock_synchronize",
+          "sha": "bab6aac33cd02d4ab041840d9b5ff001c5f2895e",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/bab6aac33cd02d4ab041840d9b5ff001c5f2895e"
+        },
+        {
+          "name": "WIP_expose_control_position",
+          "sha": "4077cab3269d641cbfe02a028a4fa001453276d6",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/4077cab3269d641cbfe02a028a4fa001453276d6"
+        },
+        {
+          "name": "alternate_transport",
+          "sha": "f773152dbf36c32ba70a7a822790b44dc220a8e0",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/f773152dbf36c32ba70a7a822790b44dc220a8e0"
+        },
+        {
+          "name": "bissc",
+          "sha": "d52d6a977e712c50da2b55c5715c4847ac3844a2",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/d52d6a977e712c50da2b55c5715c4847ac3844a2"
+        },
+        {
+          "name": "claude/adaptive-decel-trajectory-Mv4Jp",
+          "sha": "64d7cab590ec933ab03aa3df0a19ae10362e6e8d",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/64d7cab590ec933ab03aa3df0a19ae10362e6e8d"
+        },
+        {
+          "name": "claude/add-python-type-checking-VPmSl",
+          "sha": "f87be41640718a0a7984028254353c4c56f04c4c",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/f87be41640718a0a7984028254353c4c56f04c4c"
+        },
+        {
+          "name": "claude/build-and-test-host-b9P43",
+          "sha": "3d504914f480da283d066dc0719d75e46f80c132",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/3d504914f480da283d066dc0719d75e46f80c132"
+        },
+        {
+          "name": "claude/fix-acceleration-trajectory-Mv4Jp",
+          "sha": "863db20cd7030b14b1d803378707d893033b8b3c",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/863db20cd7030b14b1d803378707d893033b8b3c"
+        },
+        {
+          "name": "claude/fix-acceleration-trajectory-y0eTA",
+          "sha": "23d82f851553598bb9676ab246e15a3a49a8cedb",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/23d82f851553598bb9676ab246e15a3a49a8cedb"
+        },
+        {
+          "name": "claude/test-code-execution-3325M",
+          "sha": "2df336db727a2ebb24890565478e74bf4d5d0d6a",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/2df336db727a2ebb24890565478e74bf4d5d0d6a"
+        },
+        {
+          "name": "claude/trajectory-optimization-Mv4Jp",
+          "sha": "d5fa0dabff035eb1d03813b9b541a61736fa2ca2",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/d5fa0dabff035eb1d03813b9b541a61736fa2ca2"
+        },
+        {
+          "name": "cmake",
+          "sha": "0b647b1dfb895ef89feeffa00374ab65fea6d325",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/0b647b1dfb895ef89feeffa00374ab65fea6d325"
+        },
+        {
+          "name": "d_axis_command",
+          "sha": "19bd186316ab0600c304cda7472d9d469628aadd",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/19bd186316ab0600c304cda7472d9d469628aadd"
+        },
+        {
+          "name": "encoder_mk2.5",
+          "sha": "d53b67b6c9d1a78138c566c229d8ef26fe3e1a10",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/d53b67b6c9d1a78138c566c229d8ef26fe3e1a10"
+        },
+        {
+          "name": "encoder_mk2.7",
+          "sha": "4c0e1c4c853b9a78ffd5c8e19547be7e95d7340c",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/4c0e1c4c853b9a78ffd5c8e19547be7e95d7340c"
+        },
+        {
+          "name": "gh-pages",
+          "sha": "d7cd93939c0e175100033b9173ba7f417dcd8fd9",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/d7cd93939c0e175100033b9173ba7f417dcd8fd9"
+        },
+        {
+          "name": "hall-lost-tracking-fix",
+          "sha": "d3a038f4208a97badd9fb0fdfe25fc1c221c783a",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/d3a038f4208a97badd9fb0fdfe25fc1c221c783a"
+        },
+        {
+          "name": "ilimit_scale",
+          "sha": "64eca9a755c18c481a3c750836f0e3fd9a99fc22",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/64eca9a755c18c481a3c750836f0e3fd9a99fc22"
+        },
+        {
+          "name": "improved_hall",
+          "sha": "12406a61633d494aed070bca6728584c2ffb0250",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/12406a61633d494aed070bca6728584c2ffb0250"
+        },
+        {
+          "name": "inverted_index",
+          "sha": "1a74724cfc0b969cd1ae241e4ec3cd311d661455",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/1a74724cfc0b969cd1ae241e4ec3cd311d661455"
+        },
+        {
+          "name": "lib_cpp",
+          "sha": "43ddd76db93775c1a4b7c323c82125e825c971cd",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/43ddd76db93775c1a4b7c323c82125e825c971cd"
+        },
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+        },
+        {
+          "name": "mcout-uart",
+          "sha": "af6196787606d49eedb814ffce536803ed291a03",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/af6196787606d49eedb814ffce536803ed291a03"
+        },
+        {
+          "name": "moteus_c1_sw",
+          "sha": "e6a5770190649f3a429b1c2ba612874d44885abe",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/e6a5770190649f3a429b1c2ba612874d44885abe"
+        },
+        {
+          "name": "position_velocity_fault",
+          "sha": "3db3c43914232a0f7fd6e32c5c4ccef47ada897c",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/3db3c43914232a0f7fd6e32c5c4ccef47ada897c"
+        },
+        {
+          "name": "pwm_out",
+          "sha": "efba5e96e740e20bc57a4a2da2e52246c6594a9a",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/efba5e96e740e20bc57a4a2da2e52246c6594a9a"
+        },
+        {
+          "name": "release/cpp-1.0.x",
+          "sha": "d38a25326b47077e0e5645492e9b7cb1b84d5f8e",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/d38a25326b47077e0e5645492e9b7cb1b84d5f8e"
+        },
+        {
+          "name": "release/firmware-1.0.x",
+          "sha": "6f063a90a97012dc9f6ccc420390c5a6cc55fac7",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/6f063a90a97012dc9f6ccc420390c5a6cc55fac7"
+        },
+        {
+          "name": "release/python-1.0.x",
+          "sha": "2125e2502dc9beccbc52d669a6d7a5998e35297f",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/2125e2502dc9beccbc52d669a6d7a5998e35297f"
+        },
+        {
+          "name": "rust",
+          "sha": "6c23c88ed847508d91b15218063aff93c7391ca4",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/6c23c88ed847508d91b15218063aff93c7391ca4"
+        },
+        {
+          "name": "zero-angle-trigger-aux2-rt",
+          "sha": "0a2fd469fcf3b2752b6280bb0901c12b910760d2",
+          "api_url": "https://api.github.com/repos/kalmancito/moteus/commits/0a2fd469fcf3b2752b6280bb0901c12b910760d2"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "20240607-timeout-encoder",
+          "sha": "9f12a391ea03b446bc98305897c43dffad394ddd",
+          "identical": true
+        },
+        {
+          "name": "20240610-ma732_trim",
+          "sha": "a726955ccbe0a15e73735adf2cb9e81d4afd53e5",
+          "identical": true
+        },
+        {
+          "name": "20250729-debug",
+          "sha": "954214c9291c18d9e68ef971e7c7c9100fc0441d",
+          "identical": true
+        },
+        {
+          "name": "WIP_clock_synchronize",
+          "sha": "bab6aac33cd02d4ab041840d9b5ff001c5f2895e",
+          "identical": true
+        },
+        {
+          "name": "WIP_expose_control_position",
+          "sha": "4077cab3269d641cbfe02a028a4fa001453276d6",
+          "identical": true
+        },
+        {
+          "name": "alternate_transport",
+          "sha": "f773152dbf36c32ba70a7a822790b44dc220a8e0",
+          "identical": true
+        },
+        {
+          "name": "bissc",
+          "sha": "d52d6a977e712c50da2b55c5715c4847ac3844a2",
+          "identical": true
+        },
+        {
+          "name": "claude/adaptive-decel-trajectory-Mv4Jp",
+          "sha": "64d7cab590ec933ab03aa3df0a19ae10362e6e8d",
+          "identical": true
+        },
+        {
+          "name": "claude/add-python-type-checking-VPmSl",
+          "sha": "f87be41640718a0a7984028254353c4c56f04c4c",
+          "identical": true
+        },
+        {
+          "name": "claude/build-and-test-host-b9P43",
+          "sha": "3d504914f480da283d066dc0719d75e46f80c132",
+          "identical": true
+        },
+        {
+          "name": "claude/fix-acceleration-trajectory-Mv4Jp",
+          "sha": "863db20cd7030b14b1d803378707d893033b8b3c",
+          "identical": true
+        },
+        {
+          "name": "claude/fix-acceleration-trajectory-y0eTA",
+          "sha": "23d82f851553598bb9676ab246e15a3a49a8cedb",
+          "identical": true
+        },
+        {
+          "name": "claude/test-code-execution-3325M",
+          "sha": "2df336db727a2ebb24890565478e74bf4d5d0d6a",
+          "identical": true
+        },
+        {
+          "name": "claude/trajectory-optimization-Mv4Jp",
+          "sha": "d5fa0dabff035eb1d03813b9b541a61736fa2ca2",
+          "identical": true
+        },
+        {
+          "name": "cmake",
+          "sha": "0b647b1dfb895ef89feeffa00374ab65fea6d325",
+          "identical": true
+        },
+        {
+          "name": "d_axis_command",
+          "sha": "19bd186316ab0600c304cda7472d9d469628aadd",
+          "identical": true
+        },
+        {
+          "name": "encoder_mk2.5",
+          "sha": "d53b67b6c9d1a78138c566c229d8ef26fe3e1a10",
+          "identical": true
+        },
+        {
+          "name": "encoder_mk2.7",
+          "sha": "4c0e1c4c853b9a78ffd5c8e19547be7e95d7340c",
+          "identical": true
+        },
+        {
+          "name": "gh-pages",
+          "sha": "d7cd93939c0e175100033b9173ba7f417dcd8fd9",
+          "identical": true
+        },
+        {
+          "name": "hall-lost-tracking-fix",
+          "sha": "d3a038f4208a97badd9fb0fdfe25fc1c221c783a",
+          "identical": true
+        },
+        {
+          "name": "ilimit_scale",
+          "sha": "64eca9a755c18c481a3c750836f0e3fd9a99fc22",
+          "identical": true
+        },
+        {
+          "name": "improved_hall",
+          "sha": "12406a61633d494aed070bca6728584c2ffb0250",
+          "identical": true
+        },
+        {
+          "name": "inverted_index",
+          "sha": "1a74724cfc0b969cd1ae241e4ec3cd311d661455",
+          "identical": true
+        },
+        {
+          "name": "lib_cpp",
+          "sha": "43ddd76db93775c1a4b7c323c82125e825c971cd",
+          "identical": true
+        },
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "identical": true
+        },
+        {
+          "name": "mcout-uart",
+          "sha": "af6196787606d49eedb814ffce536803ed291a03",
+          "identical": true
+        },
+        {
+          "name": "moteus_c1_sw",
+          "sha": "e6a5770190649f3a429b1c2ba612874d44885abe",
+          "identical": true
+        },
+        {
+          "name": "position_velocity_fault",
+          "sha": "3db3c43914232a0f7fd6e32c5c4ccef47ada897c",
+          "identical": true
+        },
+        {
+          "name": "pwm_out",
+          "sha": "efba5e96e740e20bc57a4a2da2e52246c6594a9a",
+          "identical": true
+        },
+        {
+          "name": "release/cpp-1.0.x",
+          "sha": "d38a25326b47077e0e5645492e9b7cb1b84d5f8e",
+          "identical": true
+        },
+        {
+          "name": "release/firmware-1.0.x",
+          "sha": "6f063a90a97012dc9f6ccc420390c5a6cc55fac7",
+          "identical": true
+        },
+        {
+          "name": "release/python-1.0.x",
+          "sha": "2125e2502dc9beccbc52d669a6d7a5998e35297f",
+          "identical": true
+        },
+        {
+          "name": "rust",
+          "sha": "6c23c88ed847508d91b15218063aff93c7391ca4",
+          "identical": true
+        },
+        {
+          "name": "zero-angle-trigger-aux2-rt",
+          "sha": "0a2fd469fcf3b2752b6280bb0901c12b910760d2",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/kalmancito/moteus",
+        "https://api.github.com/repos/kalmancito/moteus/branches?per_page=100",
+        "https://api.github.com/repos/kalmancito/moteus/pulls?state=all&per_page=100"
+      ]
+    },
+    "Darknight92228/ardupilot": {
+      "metadata": {
+        "full_name": "Darknight92228/ardupilot",
+        "default_branch": "master",
+        "fork": true,
+        "parent": "jyjblrd/ardupilot",
+        "source": "ArduPilot/ardupilot",
+        "description": "Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/Darknight92228/ardupilot"
+      },
+      "branches": [
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "api_url": "https://api.github.com/repos/Darknight92228/ardupilot/commits/455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/Darknight92228/ardupilot",
+        "https://api.github.com/repos/Darknight92228/ardupilot/branches?per_page=100",
+        "https://api.github.com/repos/Darknight92228/ardupilot/pulls?state=all&per_page=100"
+      ]
+    },
+    "Aquahoodjd/moteus": {
+      "metadata": {
+        "full_name": "Aquahoodjd/moteus",
+        "default_branch": "main",
+        "fork": true,
+        "parent": "jyjblrd/moteus",
+        "source": "mjbots/moteus",
+        "description": "Moteus Brushless DC motor controller \u2013 Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/Aquahoodjd/moteus"
+      },
+      "branches": [
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "api_url": "https://api.github.com/repos/Aquahoodjd/moteus/commits/704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/Aquahoodjd/moteus",
+        "https://api.github.com/repos/Aquahoodjd/moteus/branches?per_page=100",
+        "https://api.github.com/repos/Aquahoodjd/moteus/pulls?state=all&per_page=100"
+      ]
+    },
+    "tsai1278/ardupilot": {
+      "metadata": {
+        "full_name": "tsai1278/ardupilot",
+        "default_branch": "master",
+        "fork": true,
+        "parent": "jyjblrd/ardupilot",
+        "source": "ArduPilot/ardupilot",
+        "description": "Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/tsai1278/ardupilot"
+      },
+      "branches": [
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "api_url": "https://api.github.com/repos/tsai1278/ardupilot/commits/455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/tsai1278/ardupilot",
+        "https://api.github.com/repos/tsai1278/ardupilot/branches?per_page=100",
+        "https://api.github.com/repos/tsai1278/ardupilot/pulls?state=all&per_page=100"
+      ]
+    },
+    "fiamor/ardupilot": {
+      "metadata": {
+        "full_name": "fiamor/ardupilot",
+        "default_branch": "master",
+        "fork": true,
+        "parent": "jyjblrd/ardupilot",
+        "source": "ArduPilot/ardupilot",
+        "description": "Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/fiamor/ardupilot"
+      },
+      "branches": [
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "api_url": "https://api.github.com/repos/fiamor/ardupilot/commits/455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "master",
+          "sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/fiamor/ardupilot",
+        "https://api.github.com/repos/fiamor/ardupilot/branches?per_page=100",
+        "https://api.github.com/repos/fiamor/ardupilot/pulls?state=all&per_page=100"
+      ]
+    },
+    "charanakreddy/moteus": {
+      "metadata": {
+        "full_name": "charanakreddy/moteus",
+        "default_branch": "main",
+        "fork": true,
+        "parent": "jyjblrd/moteus",
+        "source": "mjbots/moteus",
+        "description": "Moteus Brushless DC motor controller \u2013 Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/charanakreddy/moteus"
+      },
+      "branches": [
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "api_url": "https://api.github.com/repos/charanakreddy/moteus/commits/704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/charanakreddy/moteus",
+        "https://api.github.com/repos/charanakreddy/moteus/branches?per_page=100",
+        "https://api.github.com/repos/charanakreddy/moteus/pulls?state=all&per_page=100"
+      ]
+    },
+    "sadhu-sanjay/moteus": {
+      "metadata": {
+        "full_name": "sadhu-sanjay/moteus",
+        "default_branch": "main",
+        "fork": true,
+        "parent": "jyjblrd/moteus",
+        "source": "mjbots/moteus",
+        "description": "Moteus Brushless DC motor controller \u2013 Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/sadhu-sanjay/moteus"
+      },
+      "branches": [
+        {
+          "name": "20240607-timeout-encoder",
+          "sha": "9f12a391ea03b446bc98305897c43dffad394ddd",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/9f12a391ea03b446bc98305897c43dffad394ddd"
+        },
+        {
+          "name": "20240610-ma732_trim",
+          "sha": "a726955ccbe0a15e73735adf2cb9e81d4afd53e5",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/a726955ccbe0a15e73735adf2cb9e81d4afd53e5"
+        },
+        {
+          "name": "20250729-debug",
+          "sha": "954214c9291c18d9e68ef971e7c7c9100fc0441d",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/954214c9291c18d9e68ef971e7c7c9100fc0441d"
+        },
+        {
+          "name": "WIP_clock_synchronize",
+          "sha": "bab6aac33cd02d4ab041840d9b5ff001c5f2895e",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/bab6aac33cd02d4ab041840d9b5ff001c5f2895e"
+        },
+        {
+          "name": "WIP_expose_control_position",
+          "sha": "4077cab3269d641cbfe02a028a4fa001453276d6",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/4077cab3269d641cbfe02a028a4fa001453276d6"
+        },
+        {
+          "name": "alternate_transport",
+          "sha": "f773152dbf36c32ba70a7a822790b44dc220a8e0",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/f773152dbf36c32ba70a7a822790b44dc220a8e0"
+        },
+        {
+          "name": "bissc",
+          "sha": "d52d6a977e712c50da2b55c5715c4847ac3844a2",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/d52d6a977e712c50da2b55c5715c4847ac3844a2"
+        },
+        {
+          "name": "claude/adaptive-decel-trajectory-Mv4Jp",
+          "sha": "64d7cab590ec933ab03aa3df0a19ae10362e6e8d",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/64d7cab590ec933ab03aa3df0a19ae10362e6e8d"
+        },
+        {
+          "name": "claude/add-python-type-checking-VPmSl",
+          "sha": "f87be41640718a0a7984028254353c4c56f04c4c",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/f87be41640718a0a7984028254353c4c56f04c4c"
+        },
+        {
+          "name": "claude/build-and-test-host-b9P43",
+          "sha": "3d504914f480da283d066dc0719d75e46f80c132",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/3d504914f480da283d066dc0719d75e46f80c132"
+        },
+        {
+          "name": "claude/fix-acceleration-trajectory-Mv4Jp",
+          "sha": "863db20cd7030b14b1d803378707d893033b8b3c",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/863db20cd7030b14b1d803378707d893033b8b3c"
+        },
+        {
+          "name": "claude/fix-acceleration-trajectory-y0eTA",
+          "sha": "23d82f851553598bb9676ab246e15a3a49a8cedb",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/23d82f851553598bb9676ab246e15a3a49a8cedb"
+        },
+        {
+          "name": "claude/test-code-execution-3325M",
+          "sha": "2df336db727a2ebb24890565478e74bf4d5d0d6a",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/2df336db727a2ebb24890565478e74bf4d5d0d6a"
+        },
+        {
+          "name": "claude/trajectory-optimization-Mv4Jp",
+          "sha": "d5fa0dabff035eb1d03813b9b541a61736fa2ca2",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/d5fa0dabff035eb1d03813b9b541a61736fa2ca2"
+        },
+        {
+          "name": "cmake",
+          "sha": "0b647b1dfb895ef89feeffa00374ab65fea6d325",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/0b647b1dfb895ef89feeffa00374ab65fea6d325"
+        },
+        {
+          "name": "d_axis_command",
+          "sha": "19bd186316ab0600c304cda7472d9d469628aadd",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/19bd186316ab0600c304cda7472d9d469628aadd"
+        },
+        {
+          "name": "encoder_mk2.5",
+          "sha": "d53b67b6c9d1a78138c566c229d8ef26fe3e1a10",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/d53b67b6c9d1a78138c566c229d8ef26fe3e1a10"
+        },
+        {
+          "name": "encoder_mk2.7",
+          "sha": "4c0e1c4c853b9a78ffd5c8e19547be7e95d7340c",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/4c0e1c4c853b9a78ffd5c8e19547be7e95d7340c"
+        },
+        {
+          "name": "gh-pages",
+          "sha": "d7cd93939c0e175100033b9173ba7f417dcd8fd9",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/d7cd93939c0e175100033b9173ba7f417dcd8fd9"
+        },
+        {
+          "name": "hall-lost-tracking-fix",
+          "sha": "d3a038f4208a97badd9fb0fdfe25fc1c221c783a",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/d3a038f4208a97badd9fb0fdfe25fc1c221c783a"
+        },
+        {
+          "name": "ilimit_scale",
+          "sha": "64eca9a755c18c481a3c750836f0e3fd9a99fc22",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/64eca9a755c18c481a3c750836f0e3fd9a99fc22"
+        },
+        {
+          "name": "improved_hall",
+          "sha": "12406a61633d494aed070bca6728584c2ffb0250",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/12406a61633d494aed070bca6728584c2ffb0250"
+        },
+        {
+          "name": "inverted_index",
+          "sha": "1a74724cfc0b969cd1ae241e4ec3cd311d661455",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/1a74724cfc0b969cd1ae241e4ec3cd311d661455"
+        },
+        {
+          "name": "lib_cpp",
+          "sha": "43ddd76db93775c1a4b7c323c82125e825c971cd",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/43ddd76db93775c1a4b7c323c82125e825c971cd"
+        },
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+        },
+        {
+          "name": "mcout-uart",
+          "sha": "af6196787606d49eedb814ffce536803ed291a03",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/af6196787606d49eedb814ffce536803ed291a03"
+        },
+        {
+          "name": "moteus_c1_sw",
+          "sha": "e6a5770190649f3a429b1c2ba612874d44885abe",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/e6a5770190649f3a429b1c2ba612874d44885abe"
+        },
+        {
+          "name": "position_velocity_fault",
+          "sha": "3db3c43914232a0f7fd6e32c5c4ccef47ada897c",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/3db3c43914232a0f7fd6e32c5c4ccef47ada897c"
+        },
+        {
+          "name": "pwm_out",
+          "sha": "efba5e96e740e20bc57a4a2da2e52246c6594a9a",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/efba5e96e740e20bc57a4a2da2e52246c6594a9a"
+        },
+        {
+          "name": "release/cpp-1.0.x",
+          "sha": "d38a25326b47077e0e5645492e9b7cb1b84d5f8e",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/d38a25326b47077e0e5645492e9b7cb1b84d5f8e"
+        },
+        {
+          "name": "release/firmware-1.0.x",
+          "sha": "6f063a90a97012dc9f6ccc420390c5a6cc55fac7",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/6f063a90a97012dc9f6ccc420390c5a6cc55fac7"
+        },
+        {
+          "name": "release/python-1.0.x",
+          "sha": "2125e2502dc9beccbc52d669a6d7a5998e35297f",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/2125e2502dc9beccbc52d669a6d7a5998e35297f"
+        },
+        {
+          "name": "rust",
+          "sha": "6c23c88ed847508d91b15218063aff93c7391ca4",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/6c23c88ed847508d91b15218063aff93c7391ca4"
+        },
+        {
+          "name": "zero-angle-trigger-aux2-rt",
+          "sha": "0a2fd469fcf3b2752b6280bb0901c12b910760d2",
+          "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/commits/0a2fd469fcf3b2752b6280bb0901c12b910760d2"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "20240607-timeout-encoder",
+          "sha": "9f12a391ea03b446bc98305897c43dffad394ddd",
+          "identical": true
+        },
+        {
+          "name": "20240610-ma732_trim",
+          "sha": "a726955ccbe0a15e73735adf2cb9e81d4afd53e5",
+          "identical": true
+        },
+        {
+          "name": "20250729-debug",
+          "sha": "954214c9291c18d9e68ef971e7c7c9100fc0441d",
+          "identical": true
+        },
+        {
+          "name": "WIP_clock_synchronize",
+          "sha": "bab6aac33cd02d4ab041840d9b5ff001c5f2895e",
+          "identical": true
+        },
+        {
+          "name": "WIP_expose_control_position",
+          "sha": "4077cab3269d641cbfe02a028a4fa001453276d6",
+          "identical": true
+        },
+        {
+          "name": "alternate_transport",
+          "sha": "f773152dbf36c32ba70a7a822790b44dc220a8e0",
+          "identical": true
+        },
+        {
+          "name": "bissc",
+          "sha": "d52d6a977e712c50da2b55c5715c4847ac3844a2",
+          "identical": true
+        },
+        {
+          "name": "claude/adaptive-decel-trajectory-Mv4Jp",
+          "sha": "64d7cab590ec933ab03aa3df0a19ae10362e6e8d",
+          "identical": true
+        },
+        {
+          "name": "claude/add-python-type-checking-VPmSl",
+          "sha": "f87be41640718a0a7984028254353c4c56f04c4c",
+          "identical": true
+        },
+        {
+          "name": "claude/build-and-test-host-b9P43",
+          "sha": "3d504914f480da283d066dc0719d75e46f80c132",
+          "identical": true
+        },
+        {
+          "name": "claude/fix-acceleration-trajectory-Mv4Jp",
+          "sha": "863db20cd7030b14b1d803378707d893033b8b3c",
+          "identical": true
+        },
+        {
+          "name": "claude/fix-acceleration-trajectory-y0eTA",
+          "sha": "23d82f851553598bb9676ab246e15a3a49a8cedb",
+          "identical": true
+        },
+        {
+          "name": "claude/test-code-execution-3325M",
+          "sha": "2df336db727a2ebb24890565478e74bf4d5d0d6a",
+          "identical": true
+        },
+        {
+          "name": "claude/trajectory-optimization-Mv4Jp",
+          "sha": "d5fa0dabff035eb1d03813b9b541a61736fa2ca2",
+          "identical": true
+        },
+        {
+          "name": "cmake",
+          "sha": "0b647b1dfb895ef89feeffa00374ab65fea6d325",
+          "identical": true
+        },
+        {
+          "name": "d_axis_command",
+          "sha": "19bd186316ab0600c304cda7472d9d469628aadd",
+          "identical": true
+        },
+        {
+          "name": "encoder_mk2.5",
+          "sha": "d53b67b6c9d1a78138c566c229d8ef26fe3e1a10",
+          "identical": true
+        },
+        {
+          "name": "encoder_mk2.7",
+          "sha": "4c0e1c4c853b9a78ffd5c8e19547be7e95d7340c",
+          "identical": true
+        },
+        {
+          "name": "gh-pages",
+          "sha": "d7cd93939c0e175100033b9173ba7f417dcd8fd9",
+          "identical": true
+        },
+        {
+          "name": "hall-lost-tracking-fix",
+          "sha": "d3a038f4208a97badd9fb0fdfe25fc1c221c783a",
+          "identical": true
+        },
+        {
+          "name": "ilimit_scale",
+          "sha": "64eca9a755c18c481a3c750836f0e3fd9a99fc22",
+          "identical": true
+        },
+        {
+          "name": "improved_hall",
+          "sha": "12406a61633d494aed070bca6728584c2ffb0250",
+          "identical": true
+        },
+        {
+          "name": "inverted_index",
+          "sha": "1a74724cfc0b969cd1ae241e4ec3cd311d661455",
+          "identical": true
+        },
+        {
+          "name": "lib_cpp",
+          "sha": "43ddd76db93775c1a4b7c323c82125e825c971cd",
+          "identical": true
+        },
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "identical": true
+        },
+        {
+          "name": "mcout-uart",
+          "sha": "af6196787606d49eedb814ffce536803ed291a03",
+          "identical": true
+        },
+        {
+          "name": "moteus_c1_sw",
+          "sha": "e6a5770190649f3a429b1c2ba612874d44885abe",
+          "identical": true
+        },
+        {
+          "name": "position_velocity_fault",
+          "sha": "3db3c43914232a0f7fd6e32c5c4ccef47ada897c",
+          "identical": true
+        },
+        {
+          "name": "pwm_out",
+          "sha": "efba5e96e740e20bc57a4a2da2e52246c6594a9a",
+          "identical": true
+        },
+        {
+          "name": "release/cpp-1.0.x",
+          "sha": "d38a25326b47077e0e5645492e9b7cb1b84d5f8e",
+          "identical": true
+        },
+        {
+          "name": "release/firmware-1.0.x",
+          "sha": "6f063a90a97012dc9f6ccc420390c5a6cc55fac7",
+          "identical": true
+        },
+        {
+          "name": "release/python-1.0.x",
+          "sha": "2125e2502dc9beccbc52d669a6d7a5998e35297f",
+          "identical": true
+        },
+        {
+          "name": "rust",
+          "sha": "6c23c88ed847508d91b15218063aff93c7391ca4",
+          "identical": true
+        },
+        {
+          "name": "zero-angle-trigger-aux2-rt",
+          "sha": "0a2fd469fcf3b2752b6280bb0901c12b910760d2",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/sadhu-sanjay/moteus",
+        "https://api.github.com/repos/sadhu-sanjay/moteus/branches?per_page=100",
+        "https://api.github.com/repos/sadhu-sanjay/moteus/pulls?state=all&per_page=100"
+      ]
+    },
+    "metalogiclabs/moteus": {
+      "metadata": {
+        "full_name": "metalogiclabs/moteus",
+        "default_branch": "main",
+        "fork": true,
+        "parent": "jyjblrd/moteus",
+        "source": "mjbots/moteus",
+        "description": "Moteus Brushless DC motor controller \u2013 Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/metalogiclabs/moteus"
+      },
+      "branches": [
+        {
+          "name": "feat/mcout-speed-phase-compensation",
+          "sha": "2055adfcc542650dd1bfeffe7385e8bf6096194e",
+          "api_url": "https://api.github.com/repos/metalogiclabs/moteus/commits/2055adfcc542650dd1bfeffe7385e8bf6096194e"
+        },
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "api_url": "https://api.github.com/repos/metalogiclabs/moteus/commits/704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+        },
+        {
+          "name": "pr/mcout-cyclic-phase-speed-schedule",
+          "sha": "7bd39cf10a045b10c26a32241117e2dad60d08c9",
+          "api_url": "https://api.github.com/repos/metalogiclabs/moteus/commits/7bd39cf10a045b10c26a32241117e2dad60d08c9"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "feat/mcout-speed-phase-compensation",
+          "sha": "2055adfcc542650dd1bfeffe7385e8bf6096194e",
+          "identical": false
+        },
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "identical": true
+        },
+        {
+          "name": "pr/mcout-cyclic-phase-speed-schedule",
+          "sha": "7bd39cf10a045b10c26a32241117e2dad60d08c9",
+          "identical": false
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/metalogiclabs/moteus",
+        "https://api.github.com/repos/metalogiclabs/moteus/branches?per_page=100",
+        "https://api.github.com/repos/metalogiclabs/moteus/pulls?state=all&per_page=100"
+      ]
+    },
+    "gyillikci/moteus": {
+      "metadata": {
+        "full_name": "gyillikci/moteus",
+        "default_branch": "main",
+        "fork": true,
+        "parent": "jyjblrd/moteus",
+        "source": "mjbots/moteus",
+        "description": "Moteus Brushless DC motor controller \u2013 Single Motor Drone Fork",
+        "forks_count": 0,
+        "html_url": "https://github.com/gyillikci/moteus"
+      },
+      "branches": [
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "api_url": "https://api.github.com/repos/gyillikci/moteus/commits/704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+        }
+      ],
+      "pull_requests": [],
+      "branch_sha_identity_to_parent": [
+        {
+          "name": "main",
+          "sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+          "identical": true
+        }
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/gyillikci/moteus",
+        "https://api.github.com/repos/gyillikci/moteus/branches?per_page=100",
+        "https://api.github.com/repos/gyillikci/moteus/pulls?state=all&per_page=100"
+      ]
+    }
+  },
+  "comparisons": [
+    {
+      "repository": "jyjblrd/ardupilot",
+      "base": "new-features",
+      "head": "master",
+      "status": "ahead",
+      "ahead_by": 7398,
+      "behind_by": 0,
+      "total_commits": 7398,
+      "base_commit": "7cbdd13b67fc3d9707ad3839fb4bf031875d60f9",
+      "merge_base_commit": "7cbdd13b67fc3d9707ad3839fb4bf031875d60f9",
+      "returned_files": 300,
+      "file_list_may_be_truncated": true,
+      "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/compare/new-features...master"
+    },
+    {
+      "repository": "jyjblrd/moteus",
+      "base": "mcout-uart",
+      "head": "main",
+      "status": "ahead",
+      "ahead_by": 17,
+      "behind_by": 0,
+      "total_commits": 17,
+      "base_commit": "af6196787606d49eedb814ffce536803ed291a03",
+      "merge_base_commit": "af6196787606d49eedb814ffce536803ed291a03",
+      "returned_files": 23,
+      "file_list_may_be_truncated": false,
+      "files": [
+        {
+          "path": ".github/workflows/build-firmware-release.yml",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2
+        },
+        {
+          "path": ".github/workflows/ci.yml",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2
+        },
+        {
+          "path": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 38,
+          "deletions": 0
+        },
+        {
+          "path": "CLAUDE.md",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 7
+        },
+        {
+          "path": "README.md",
+          "status": "modified",
+          "additions": 20,
+          "deletions": 18
+        },
+        {
+          "path": "docs/mpat.html",
+          "status": "modified",
+          "additions": 20,
+          "deletions": 14
+        },
+        {
+          "path": "fw/BUILD",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0
+        },
+        {
+          "path": "fw/bldc_servo_control.h",
+          "status": "modified",
+          "additions": 44,
+          "deletions": 0
+        },
+        {
+          "path": "fw/bldc_servo_structs.h",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0
+        },
+        {
+          "path": "fw/motor_position.h",
+          "status": "modified",
+          "additions": 50,
+          "deletions": 13
+        },
+        {
+          "path": "fw/test/bldc_servo_control_test.cc",
+          "status": "modified",
+          "additions": 156,
+          "deletions": 0
+        },
+        {
+          "path": "fw/test/data/20260715-hboard-n1-1hz.dat.gz",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "path": "fw/test/hall_filter_test.cc",
+          "status": "modified",
+          "additions": 99,
+          "deletions": 8
+        },
+        {
+          "path": "fw/test/hall_regression_test.py",
+          "status": "modified",
+          "additions": 85,
+          "deletions": 51
+        },
+        {
+          "path": "fw/test/simulation_dynamometer_test.cc",
+          "status": "modified",
+          "additions": 56,
+          "deletions": 0
+        },
+        {
+          "path": "lib/cpp/mjbots/moteus/moteus_transport.h",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 0
+        },
+        {
+          "path": "lib/python/moteus/calibrate_encoder.py",
+          "status": "modified",
+          "additions": 126,
+          "deletions": 53
+        },
+        {
+          "path": "lib/python/moteus/moteus_tool.py",
+          "status": "modified",
+          "additions": 96,
+          "deletions": 29
+        },
+        {
+          "path": "lib/python/moteus/test/calibrate_encoder_test.py",
+          "status": "modified",
+          "additions": 224,
+          "deletions": 84
+        },
+        {
+          "path": "tools/python.bzl",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "path": "utils/download_bazel_deps.sh",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 8
+        },
+        {
+          "path": "utils/dynamometer_drive.cc",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "path": "utils/firmware_validate.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        }
+      ],
+      "api_url": "https://api.github.com/repos/jyjblrd/moteus/compare/mcout-uart...main"
+    },
+    {
+      "repository": "metalogiclabs/moteus",
+      "base": "pr/mcout-cyclic-phase-speed-schedule",
+      "head": "feat/mcout-speed-phase-compensation",
+      "status": "diverged",
+      "ahead_by": 7,
+      "behind_by": 3,
+      "total_commits": 7,
+      "base_commit": "7bd39cf10a045b10c26a32241117e2dad60d08c9",
+      "merge_base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "returned_files": 4,
+      "file_list_may_be_truncated": false,
+      "files": [
+        {
+          "path": ".github/workflows/mcout-phase-validation.yml",
+          "status": "added",
+          "additions": 18,
+          "deletions": 0
+        },
+        {
+          "path": "docs/guides/ardupilot-mcout.md",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 6
+        },
+        {
+          "path": "fw/flight_control_structs.h",
+          "status": "modified",
+          "additions": 45,
+          "deletions": 1
+        },
+        {
+          "path": "fw/test/flight_control_logic_test.cc",
+          "status": "modified",
+          "additions": 72,
+          "deletions": 0
+        }
+      ],
+      "api_url": "https://api.github.com/repos/metalogiclabs/moteus/compare/pr%2Fmcout-cyclic-phase-speed-schedule...feat%2Fmcout-speed-phase-compensation"
+    },
+    {
+      "repository": "metalogiclabs/moteus",
+      "base": "main",
+      "head": "pr/mcout-cyclic-phase-speed-schedule",
+      "status": "ahead",
+      "ahead_by": 3,
+      "behind_by": 0,
+      "total_commits": 3,
+      "base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "merge_base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "returned_files": 3,
+      "file_list_may_be_truncated": false,
+      "files": [
+        {
+          "path": "docs/guides/ardupilot-mcout.md",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 6
+        },
+        {
+          "path": "fw/flight_control_structs.h",
+          "status": "modified",
+          "additions": 45,
+          "deletions": 1
+        },
+        {
+          "path": "fw/test/flight_control_logic_test.cc",
+          "status": "modified",
+          "additions": 72,
+          "deletions": 0
+        }
+      ],
+      "api_url": "https://api.github.com/repos/metalogiclabs/moteus/compare/main...pr%2Fmcout-cyclic-phase-speed-schedule"
+    },
+    {
+      "repository": "jyjblrd/moteus",
+      "base": "zero-angle-trigger-aux2-rt",
+      "head": "main",
+      "status": "ahead",
+      "ahead_by": 27,
+      "behind_by": 0,
+      "total_commits": 27,
+      "base_commit": "0a2fd469fcf3b2752b6280bb0901c12b910760d2",
+      "merge_base_commit": "0a2fd469fcf3b2752b6280bb0901c12b910760d2",
+      "returned_files": 43,
+      "file_list_may_be_truncated": false,
+      "files": [
+        {
+          "path": ".github/workflows/build-firmware-release.yml",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2
+        },
+        {
+          "path": ".github/workflows/ci.yml",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2
+        },
+        {
+          "path": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 38,
+          "deletions": 0
+        },
+        {
+          "path": "CLAUDE.md",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 7
+        },
+        {
+          "path": "README.md",
+          "status": "modified",
+          "additions": 28,
+          "deletions": 13
+        },
+        {
+          "path": "configs/moteus-mcout-working.cfg",
+          "status": "added",
+          "additions": 2149,
+          "deletions": 0
+        },
+        {
+          "path": "docs/guides/ardupilot-mcout.md",
+          "status": "added",
+          "additions": 227,
+          "deletions": 0
+        },
+        {
+          "path": "docs/mpat.html",
+          "status": "modified",
+          "additions": 20,
+          "deletions": 14
+        },
+        {
+          "path": "docs/reference/configuration.md",
+          "status": "modified",
+          "additions": 154,
+          "deletions": 0
+        },
+        {
+          "path": "fw/BUILD",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0
+        },
+        {
+          "path": "fw/aux_common.h",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 0
+        },
+        {
+          "path": "fw/aux_port.h",
+          "status": "modified",
+          "additions": 17,
+          "deletions": 0
+        },
+        {
+          "path": "fw/bldc_servo.cc",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 0
+        },
+        {
+          "path": "fw/bldc_servo_control.h",
+          "status": "modified",
+          "additions": 115,
+          "deletions": 1
+        },
+        {
+          "path": "fw/bldc_servo_structs.h",
+          "status": "modified",
+          "additions": 47,
+          "deletions": 0
+        },
+        {
+          "path": "fw/board_debug.cc",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 1
+        },
+        {
+          "path": "fw/flight_control.cc",
+          "status": "added",
+          "additions": 107,
+          "deletions": 0
+        },
+        {
+          "path": "fw/flight_control.h",
+          "status": "added",
+          "additions": 67,
+          "deletions": 0
+        },
+        {
+          "path": "fw/flight_control_structs.h",
+          "status": "added",
+          "additions": 523,
+          "deletions": 0
+        },
+        {
+          "path": "fw/mcout_protocol.h",
+          "status": "added",
+          "additions": 324,
+          "deletions": 0
+        },
+        {
+          "path": "fw/mcout_receiver.h",
+          "status": "added",
+          "additions": 115,
+          "deletions": 0
+        },
+        {
+          "path": "fw/moteus.cc",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1
+        },
+        {
+          "path": "fw/moteus_controller.cc",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 0
+        },
+        {
+          "path": "fw/motor_position.h",
+          "status": "modified",
+          "additions": 50,
+          "deletions": 13
+        },
+        {
+          "path": "fw/stm32g474.ld",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 2
+        },
+        {
+          "path": "fw/stm32g4_flash.h",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 4
+        },
+        {
+          "path": "fw/test/bldc_servo_control_test.cc",
+          "status": "modified",
+          "additions": 341,
+          "deletions": 0
+        },
+        {
+          "path": "fw/test/data/20260715-hboard-n1-1hz.dat.gz",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "path": "fw/test/flight_control_logic_test.cc",
+          "status": "added",
+          "additions": 541,
+          "deletions": 0
+        },
+        {
+          "path": "fw/test/hall_filter_test.cc",
+          "status": "modified",
+          "additions": 99,
+          "deletions": 8
+        },
+        {
+          "path": "fw/test/hall_regression_test.py",
+          "status": "modified",
+          "additions": 85,
+          "deletions": 51
+        },
+        {
+          "path": "fw/test/mcout_protocol_test.cc",
+          "status": "added",
+          "additions": 267,
+          "deletions": 0
+        },
+        {
+          "path": "fw/test/simulation_dynamometer_test.cc",
+          "status": "modified",
+          "additions": 56,
+          "deletions": 0
+        },
+        {
+          "path": "lib/cpp/mjbots/moteus/moteus_transport.h",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 0
+        },
+        {
+          "path": "lib/python/moteus/calibrate_encoder.py",
+          "status": "modified",
+          "additions": 126,
+          "deletions": 53
+        },
+        {
+          "path": "lib/python/moteus/moteus_tool.py",
+          "status": "modified",
+          "additions": 96,
+          "deletions": 29
+        },
+        {
+          "path": "lib/python/moteus/test/calibrate_encoder_test.py",
+          "status": "modified",
+          "additions": 224,
+          "deletions": 84
+        },
+        {
+          "path": "mkdocs.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0
+        },
+        {
+          "path": "tools/python.bzl",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "path": "utils/download_bazel_deps.sh",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 8
+        },
+        {
+          "path": "utils/dynamometer_drive.cc",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "path": "utils/firmware_validate.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "path": "utils/remote_build.sh",
+          "status": "added",
+          "additions": 66,
+          "deletions": 0
+        }
+      ],
+      "api_url": "https://api.github.com/repos/jyjblrd/moteus/compare/zero-angle-trigger-aux2-rt...main"
+    },
+    {
+      "repository": "jyjblrd/ardupilot",
+      "base": "jbird/ir-beacon-yaw",
+      "head": "master",
+      "status": "ahead",
+      "ahead_by": 7405,
+      "behind_by": 0,
+      "total_commits": 7405,
+      "base_commit": "e23fe2cf41154bd51a7923524cfeb300675f0c61",
+      "merge_base_commit": "e23fe2cf41154bd51a7923524cfeb300675f0c61",
+      "returned_files": 300,
+      "file_list_may_be_truncated": true,
+      "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/compare/jbird%2Fir-beacon-yaw...master"
+    },
+    {
+      "repository": "jyjblrd/ardupilot",
+      "base": "claude/vigorous-einstein-8a53eb",
+      "head": "master",
+      "status": "diverged",
+      "ahead_by": 7407,
+      "behind_by": 5,
+      "total_commits": 7407,
+      "base_commit": "30e0e7d9bd22e82fda2541ff262c70e80a0c3bbf",
+      "merge_base_commit": "999cc41a9e5b33b9979b0791ae199c3b05ce9aaf",
+      "returned_files": 300,
+      "file_list_may_be_truncated": true,
+      "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/compare/claude%2Fvigorous-einstein-8a53eb...master"
+    },
+    {
+      "repository": "jyjblrd/ardupilot",
+      "base": "copilot/fix-autotest-sitltest-sub",
+      "head": "master",
+      "status": "diverged",
+      "ahead_by": 956,
+      "behind_by": 2,
+      "total_commits": 956,
+      "base_commit": "c86118b78f3663c22036050fd8e2bbba5667ba48",
+      "merge_base_commit": "f9d619e26002d6aaa41643ee99c0ae0ee01e2247",
+      "returned_files": 300,
+      "file_list_may_be_truncated": true,
+      "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/compare/copilot%2Ffix-autotest-sitltest-sub...master"
+    },
+    {
+      "repository": "jyjblrd/ardupilot",
+      "base": "913e171eca7a37549d9f02e442698edfd4490435",
+      "head": "12a6efea39425b084234551355470341f71f79d4",
+      "status": "behind",
+      "ahead_by": 0,
+      "behind_by": 1,
+      "total_commits": 0,
+      "base_commit": "913e171eca7a37549d9f02e442698edfd4490435",
+      "merge_base_commit": "12a6efea39425b084234551355470341f71f79d4",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/compare/913e171eca7a37549d9f02e442698edfd4490435...12a6efea39425b084234551355470341f71f79d4"
+    },
+    {
+      "repository": "jyjblrd/ardupilot",
+      "base": "fbd0a3160c90a557c24ce4c38c16975532652536",
+      "head": "97775f82cec5bd50296c523be9baa0dacef9bb9e",
+      "status": "behind",
+      "ahead_by": 0,
+      "behind_by": 288,
+      "total_commits": 0,
+      "base_commit": "fbd0a3160c90a557c24ce4c38c16975532652536",
+      "merge_base_commit": "97775f82cec5bd50296c523be9baa0dacef9bb9e",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/jyjblrd/ardupilot/compare/fbd0a3160c90a557c24ce4c38c16975532652536...97775f82cec5bd50296c523be9baa0dacef9bb9e"
+    },
+    {
+      "repository": "mcleber/ardupilot",
+      "base": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "head": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "merge_base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/mcleber/ardupilot/compare/455b266cc2a73505eb98c56a8049fa6a4d50f9bf...455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+    },
+    {
+      "repository": "gyillikci/ardupilot",
+      "base": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "head": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "merge_base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/gyillikci/ardupilot/compare/455b266cc2a73505eb98c56a8049fa6a4d50f9bf...455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+    },
+    {
+      "repository": "Darknight92228/ardupilot",
+      "base": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "head": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "merge_base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/Darknight92228/ardupilot/compare/455b266cc2a73505eb98c56a8049fa6a4d50f9bf...455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+    },
+    {
+      "repository": "kalmancito/ardupilot",
+      "base": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "head": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "merge_base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/kalmancito/ardupilot/compare/455b266cc2a73505eb98c56a8049fa6a4d50f9bf...455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+    },
+    {
+      "repository": "tsai1278/ardupilot",
+      "base": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "head": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "merge_base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/tsai1278/ardupilot/compare/455b266cc2a73505eb98c56a8049fa6a4d50f9bf...455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+    },
+    {
+      "repository": "sadhu-sanjay/moteus",
+      "base": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "head": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "merge_base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/sadhu-sanjay/moteus/compare/704a0dd9f30a3704e8915a82c1631301fdbff9bd...704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+    },
+    {
+      "repository": "kalmancito/moteus",
+      "base": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "head": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "merge_base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/kalmancito/moteus/compare/704a0dd9f30a3704e8915a82c1631301fdbff9bd...704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+    },
+    {
+      "repository": "tsai1278/moteus",
+      "base": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "head": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "merge_base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/tsai1278/moteus/compare/704a0dd9f30a3704e8915a82c1631301fdbff9bd...704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+    },
+    {
+      "repository": "mcleber/moteus",
+      "base": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "head": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "merge_base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/mcleber/moteus/compare/704a0dd9f30a3704e8915a82c1631301fdbff9bd...704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+    },
+    {
+      "repository": "Aquahoodjd/moteus",
+      "base": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "head": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "merge_base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/Aquahoodjd/moteus/compare/704a0dd9f30a3704e8915a82c1631301fdbff9bd...704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+    },
+    {
+      "repository": "gyillikci/moteus",
+      "base": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "head": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "merge_base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/gyillikci/moteus/compare/704a0dd9f30a3704e8915a82c1631301fdbff9bd...704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+    },
+    {
+      "repository": "fiamor/ardupilot",
+      "base": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "head": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "merge_base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/fiamor/ardupilot/compare/455b266cc2a73505eb98c56a8049fa6a4d50f9bf...455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+    },
+    {
+      "repository": "sadhu-sanjay/ardupilot",
+      "base": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "head": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "merge_base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/sadhu-sanjay/ardupilot/compare/455b266cc2a73505eb98c56a8049fa6a4d50f9bf...455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+    },
+    {
+      "repository": "charanakreddy/moteus",
+      "base": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "head": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "merge_base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/charanakreddy/moteus/compare/704a0dd9f30a3704e8915a82c1631301fdbff9bd...704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+    },
+    {
+      "repository": "fiamor/moteus",
+      "base": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "head": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "merge_base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/fiamor/moteus/compare/704a0dd9f30a3704e8915a82c1631301fdbff9bd...704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+    },
+    {
+      "repository": "charanakreddy/ardupilot",
+      "base": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "head": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "merge_base_commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/charanakreddy/ardupilot/compare/455b266cc2a73505eb98c56a8049fa6a4d50f9bf...455b266cc2a73505eb98c56a8049fa6a4d50f9bf"
+    },
+    {
+      "repository": "Darknight92228/moteus",
+      "base": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "head": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "status": "identical",
+      "ahead_by": 0,
+      "behind_by": 0,
+      "total_commits": 0,
+      "base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "merge_base_commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "returned_files": 0,
+      "file_list_may_be_truncated": false,
+      "files": [],
+      "api_url": "https://api.github.com/repos/Darknight92228/moteus/compare/704a0dd9f30a3704e8915a82c1631301fdbff9bd...704a0dd9f30a3704e8915a82c1631301fdbff9bd"
+    }
+  ],
+  "phase_pr": {
+    "repository": "jyjblrd/moteus",
+    "number": 1,
+    "url": "https://github.com/jyjblrd/moteus/pull/1",
+    "state": "open",
+    "merged": false,
+    "head_sha": "7bd39cf10a045b10c26a32241117e2dad60d08c9",
+    "base_sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+    "commits": [
+      {
+        "sha": "a0d12b2bc952a23a60aa7c6d1cbb6b8c83c5c1cb",
+        "message": "mcout: add opt-in speed-scheduled cyclic phase advance"
+      },
+      {
+        "sha": "300e9ef01a72dbbe4f70a57b547b4f73be4af870",
+        "message": "test: cover phase schedule boundaries and invalid parameters"
+      },
+      {
+        "sha": "7bd39cf10a045b10c26a32241117e2dad60d08c9",
+        "message": "docs: describe phase schedule and calibration limitations"
+      }
+    ],
+    "files": [
+      {
+        "path": "docs/guides/ardupilot-mcout.md",
+        "blob_sha": "657301357bd30a2f707a071d7a152a6ee2061088",
+        "source_url": "https://github.com/metalogiclabs/moteus/blob/7bd39cf10a045b10c26a32241117e2dad60d08c9/docs/guides/ardupilot-mcout.md"
+      },
+      {
+        "path": "fw/flight_control_structs.h",
+        "blob_sha": "87cdab8aabb1f7499bf1f3de6a2915ec1f4a071a",
+        "source_url": "https://github.com/metalogiclabs/moteus/blob/7bd39cf10a045b10c26a32241117e2dad60d08c9/fw/flight_control_structs.h"
+      },
+      {
+        "path": "fw/test/flight_control_logic_test.cc",
+        "blob_sha": "5ef719d25c8114563527c6681972ea570b16737a",
+        "source_url": "https://github.com/metalogiclabs/moteus/blob/7bd39cf10a045b10c26a32241117e2dad60d08c9/fw/test/flight_control_logic_test.cc"
+      }
+    ],
+    "validated_feature_sha": "2055adfcc542650dd1bfeffe7385e8bf6096194e",
+    "blob_equivalence": [
+      {
+        "path": "fw/flight_control_structs.h",
+        "shas": [
+          {
+            "ref": "2055adfcc542650dd1bfeffe7385e8bf6096194e",
+            "blob_sha": "87cdab8aabb1f7499bf1f3de6a2915ec1f4a071a"
+          },
+          {
+            "ref": "7bd39cf10a045b10c26a32241117e2dad60d08c9",
+            "blob_sha": "87cdab8aabb1f7499bf1f3de6a2915ec1f4a071a"
+          }
+        ],
+        "equal": true
+      },
+      {
+        "path": "fw/test/flight_control_logic_test.cc",
+        "shas": [
+          {
+            "ref": "2055adfcc542650dd1bfeffe7385e8bf6096194e",
+            "blob_sha": "5ef719d25c8114563527c6681972ea570b16737a"
+          },
+          {
+            "ref": "7bd39cf10a045b10c26a32241117e2dad60d08c9",
+            "blob_sha": "5ef719d25c8114563527c6681972ea570b16737a"
+          }
+        ],
+        "equal": true
+      },
+      {
+        "path": "docs/guides/ardupilot-mcout.md",
+        "shas": [
+          {
+            "ref": "2055adfcc542650dd1bfeffe7385e8bf6096194e",
+            "blob_sha": "657301357bd30a2f707a071d7a152a6ee2061088"
+          },
+          {
+            "ref": "7bd39cf10a045b10c26a32241117e2dad60d08c9",
+            "blob_sha": "657301357bd30a2f707a071d7a152a6ee2061088"
+          }
+        ],
+        "equal": true
+      }
+    ],
+    "validation": {
+      "run_url": "https://github.com/metalogiclabs/mathgraph/actions/runs/39724720017",
+      "workflow_sha": "c54cac3cb08134a343a6db37f3476d457f5680db",
+      "workflow_path": ".github/workflows/moteus-phase-native-validation.yml",
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "name": "test",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "conclusion": "success"
+            },
+            {
+              "name": "Checkout moteus pinned feature commit",
+              "conclusion": "success"
+            },
+            {
+              "name": "Install system-Python wheel builder",
+              "conclusion": "success"
+            },
+            {
+              "name": "Host tests",
+              "conclusion": "success"
+            },
+            {
+              "name": "Firmware target build",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "conclusion": "success"
+            }
+          ]
+        }
+      ],
+      "workflow_url": "https://github.com/metalogiclabs/mathgraph/blob/c54cac3cb08134a343a6db37f3476d457f5680db/.github/workflows/moteus-phase-native-validation.yml",
+      "checked_out_commit": "2055adfcc542650dd1bfeffe7385e8bf6096194e",
+      "host_test_command": "tools/bazel test --config=host //:host",
+      "target_build_command": "tools/bazel build --config=target //:target"
+    },
+    "limitation": "Host tests and target build success verified from job metadata; no physical rotor or flight validation, no independent local build.",
+    "evidence_storage_note": "Full diffs and workflow were inspected; this normalized ledger retains source/blob identities, pinned links and CI metadata rather than redistributing their full text."
+  },
+  "errors": [
+    {
+      "url": "https://api.github.com/repos/jyjblrd/ardupilot/forks?per_page=100",
+      "error": "400 INVALID_ARGUMENT: unallowed endpoint"
+    },
+    {
+      "url": "https://api.github.com/repos/jyjblrd/moteus/forks?per_page=100",
+      "error": "400 INVALID_ARGUMENT: unallowed endpoint"
+    }
+  ],
+  "default_head_actions_runs": {
+    "ardupilot": {
+      "head_sha": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "total_count": 0
+    },
+    "moteus": {
+      "head_sha": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "total_count": 0
+    }
+  }
+}

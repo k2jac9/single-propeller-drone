@@ -28,3 +28,13 @@ A drone that flies on a single propeller, mounted on top of a finned body.
 | Prop plate | `prop plate.f3d` | `prop plate.step` |
 | Propeller v1 | `prop_v1.f3d` | `prop_v1.step` |
 | Propeller v2 | `prop_v2.f3d` | `prop_v2.step` |
+
+## Research and development in this fork
+
+The [research guide](docs/research/README.md) documents the original branches, 91 verified CAD forks, linked firmware and contributed changes, and primary research on control, hardware, simulation and autonomy.
+
+- [Evolution roadmap](docs/plans/2026-10-26-evolution-roadmap.md): staged experiments, development priorities and completion criteria.
+- [Proposed architecture](docs/architecture/ADR-0001-evolution-strategy.md): measured rotor dynamics, compatible firmware and staged navigation.
+- [First software implementation plan](docs/superpowers/plans/2026-10-26-offline-evidence-tool.md): an offline MCOUT evidence tool.
+
+The research distinguishes inspected source and published results from proposed work. It does not establish a validated firmware pair or a tested operating envelope for a new assembly.
