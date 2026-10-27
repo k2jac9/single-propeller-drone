@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "purpose": "Observed source baseline for research; not a flight configuration or validated firmware pair",
+  "observed_on_utc": "2026-10-27",
+  "session_label": "2026-10-26",
+  "session_label_note": "Evening of 26 October in America/Toronto; API checks occurred on 27 October UTC.",
+  "development_repository": "k2jac9/single-propeller-drone",
+  "sources": [
+    {
+      "repository": "jyjblrd/single-propeller-drone",
+      "branch": "main",
+      "commit": "efc9176bfc83777b870b967c1f62a686c099be2c",
+      "tree": "bbdc527501febc4b549cd43ea8c644466f206cd5",
+      "url": "https://github.com/jyjblrd/single-propeller-drone/tree/efc9176bfc83777b870b967c1f62a686c099be2c",
+      "role": "CAD and project entry point"
+    },
+    {
+      "repository": "jyjblrd/ardupilot",
+      "branch": "master",
+      "commit": "455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "url": "https://github.com/jyjblrd/ardupilot/tree/455b266cc2a73505eb98c56a8049fa6a4d50f9bf",
+      "role": "Flight controller"
+    },
+    {
+      "repository": "jyjblrd/moteus",
+      "branch": "main",
+      "commit": "704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "url": "https://github.com/jyjblrd/moteus/tree/704a0dd9f30a3704e8915a82c1631301fdbff9bd",
+      "role": "Motor controller"
+    }
+  ],
+  "original_cad_tree": [
+    {
+      "path": ".gitignore",
+      "type": "blob",
+      "mode": "100644",
+      "sha": "a3d703866df33d586fcc5aa0b00f368ac80ac7ac",
+      "size": 24
+    },
+    {
+      "path": "README.md",
+      "type": "blob",
+      "mode": "100644",
+      "sha": "29c8206bee7eeacf9fcb4db1cfa2ce9ed7f7df70",
+      "size": 869
+    },
+    {
+      "path": "body.f3z",
+      "type": "blob",
+      "mode": "100644",
+      "sha": "b2ff86408270e00ba8d559d4d69de36442cdc44b",
+      "size": 1301430
+    },
+    {
+      "path": "body.step",
+      "type": "blob",
+      "mode": "100644",
+      "sha": "ac94436d86b1d1978f3eba107c52d1df5652c3c1",
+      "size": 357582
+    },
+    {
+      "path": "media",
+      "type": "tree",
+      "mode": "040000",
+      "sha": "847d352cdae77fed56114b0aaf2aa714d6a17af5"
+    },
+    {
+      "path": "media/drone-dark.png",
+      "type": "blob",
+      "mode": "100644",
+      "sha": "92a0a13197f4176caf7e917fd329e596078d619d",
+      "size": 148852
+    },
+    {
+      "path": "media/drone-light.png",
+      "type": "blob",
+      "mode": "100644",
+      "sha": "94189876018b23f591e7de87f3295e6d6c8d4987",
+      "size": 153927
+    },
+    {
+      "path": "media/test-stand.gif",
+      "type": "blob",
+      "mode": "100644",
+      "sha": "f63ebcf2c1fc8d40277265a8edcb588e15b45b94",
+      "size": 5821108
+    },
+    {
+      "path": "prop plate.f3d",
+      "type": "blob",
+      "mode": "100644",
+      "sha": "ffcb3406b97edf80b55da1152eff4f78ed4818a6",
+      "size": 203767
+    },
+    {
+      "path": "prop plate.step",
+      "type": "blob",
+      "mode": "100644",
+      "sha": "80f659e841e17b2c3d8101433ecca7225027f3b3",
+      "size": 59604
+    },
+    {
+      "path": "prop_v1.f3d",
+      "type": "blob",
+      "mode": "100644",
+      "sha": "3480f21a4c7a4f6d8a1b33c2232397cb9921b100",
+      "size": 1769175
+    },
+    {
+      "path": "prop_v1.step",
+      "type": "blob",
+      "mode": "100644",
+      "sha": "9ee1eb3a08c3026f96999506a37091a719966f40",
+      "size": 608134
+    },
+    {
+      "path": "prop_v2.f3d",
+      "type": "blob",
+      "mode": "100644",
+      "sha": "a12174bf14766bc41d74bf756d1cb66c627b6519",
+      "size": 1163715
+    },
+    {
+      "path": "prop_v2.step",
+      "type": "blob",
+      "mode": "100644",
+      "sha": "a287a64820743dba00b5c3f9bc74f6b5ca05d7ee",
+      "size": 472634
+    }
+  ],
+  "source_compatibility": {
+    "status": "not_established_as_a_tested_pair",
+    "current_ardupilot_mcout_serial_protocol": 51,
+    "historical_export_serial_protocol": 50,
+    "historical_export_firmware": "ArduCopter 4.6.3, revision 836c4ec5",
+    "export_is_not_a_current_build_recipe": true,
+    "source_urls": [
+      "https://github.com/jyjblrd/ardupilot/blob/455b266cc2a73505eb98c56a8049fa6a4d50f9bf/libraries/AP_SerialManager/AP_SerialManager.h",
+      "https://github.com/jyjblrd/ardupilot/blob/455b266cc2a73505eb98c56a8049fa6a4d50f9bf/configs/mcout-working.params"
+    ]
+  },
+  "transport": {
+    "format": "MCOUT",
+    "version": 1,
+    "message_id": 1,
+    "packet_bytes": 84,
+    "endianness": "little",
+    "crc": {
+      "name": "CRC-16/XMODEM",
+      "polynomial": "0x1021",
+      "initial": "0x0000",
+      "covered_byte_count": 82,
+      "stored_offset": 82
+    },
+    "source_header_blob": "a0d756c8d64e26df5e749f046dc87b09f6029094",
+    "receiver_header_blob": "dc318c952a4036615d3d21f85a87d7777c8acbf6",
+    "source_url": "https://github.com/jyjblrd/moteus/blob/704a0dd9f30a3704e8915a82c1631301fdbff9bd/fw/mcout_protocol.h",
+    "saved_baud": 115200,
+    "saved_requested_rate_hz": 190,
+    "saved_scheduler_rate_hz": 400,
+    "derived_8n1_requested_bits_per_second": 159600,
+    "derived_ideal_scheduler_rate_hz": 133.33333333333334,
+    "derived_ideal_scheduler_bits_per_second": 112000,
+    "received_rate_measured_hz": null,
+    "timing_qualification": "Ideal 400 Hz scheduler quantizes request to one packet per three loops; not a measurement and not proof of sustained overload or delivery.",
+    "arrival_latency_measured": null
+  },
+  "fork_coverage": {
+    "cad_verified_descendants": 91,
+    "cad_unique_descendant_branch_commits": 0,
+    "ardupilot_original_branch_count": 73,
+    "moteus_original_branch_count": 34,
+    "ardupilot_verified_direct_children": 8,
+    "moteus_verified_direct_children": 10,
+    "unique_firmware_descendant_repository": "metalogiclabs/moteus",
+    "unique_firmware_descendant_branch_count": 2,
+    "scope": "Exposed CAD network and verified direct children of the two drone firmware forks; not whole ArduPilot or mjbots fork networks",
+    "discovery_limit": "Direct forks collection unsupported; search candidates verified by parent/source metadata and branch inventories, with counts reconciled to repository counters."
+  },
+  "phase_contribution": {
+    "url": "https://github.com/jyjblrd/moteus/pull/1",
+    "observed_state": "open",
+    "clean_pr_head": "7bd39cf10a045b10c26a32241117e2dad60d08c9",
+    "externally_built_feature_commit": "2055adfcc542650dd1bfeffe7385e8bf6096194e",
+    "changed_file_blobs_match_between_these_commits": true,
+    "remote_ci_url": "https://github.com/metalogiclabs/mathgraph/actions/runs/39724720017",
+    "physical_calibration_evidence": false,
+    "flight_validation_evidence": false,
+    "proposed_disposition": "Opt-in experiment after exact destination-tree CI, parameter persistence checks and measured phase-response calibration"
+  },
+  "validation": {
+    "repository_metadata_and_sources_inspected": true,
+    "local_firmware_build_performed": false,
+    "hardware_operated": false,
+    "physical_plant_identified": false,
+    "payload_endurance_efficiency_or_life_claims_validated": false,
+    "observed_source_identity_is_not_flight_readiness": true
+  },
+  "unresolved_hardware_fields": [
+    "motor and winding identity",
+    "motor-controller board revision",
+    "flight-controller board",
+    "encoder and rotor zero calibration",
+    "power-system and wiring specification",
+    "print process and material conditioning",
+    "assembled mass and inertia",
+    "hinge friction and balance",
+    "measured RPM/current/force/moment envelope",
+    "cycle-life evidence"
+  ],
+  "license_observations": {
+    "cad_tree_license_file": false,
+    "cad_github_license": null,
+    "ardupilot_context": "GPL-3.0",
+    "moteus_context": "Apache-2.0",
+    "qualification": "No new license added; permissions for CAD and dependencies require component-specific review."
+  },
+  "related_ledgers": [
+    "fork-network-2026-10-26.json",
+    "firmware-inventory-2026-10-26.json",
+    "control-research-sources-2026-10-26.json",
+    "autonomy-sources-2026-10-26.json"
+  ]
+}
